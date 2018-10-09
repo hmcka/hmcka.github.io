@@ -1,0 +1,119 @@
+/* for mobile devices
+nav ul {
+	list-style: none;
+	padding: 0;
+	background: #4444;
+}
+
+nav ul li a {
+	color: #ddd;
+	text-decoration: none;
+	padding: .8rem 1rem;
+	display: block;
+}
+
+#logo  {
+	background: #4444;
+}
+
+#logo h1  {
+	line-height: 0;
+	padding: .8rem 0;
+	text-align: center;
+}
+*/
+
+main {
+	background-image: url("../images/bkgrnd-light_grey.png");
+    background-repeat-x: repeat;
+    background-repeat-y: repeat;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	background: peru;
+	align-items: center;
+	grid-column-gap: 1em;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	background: peru;
+	flex-wrap: wrap;
+	}
+
+nav ul li {
+	flex: 1 0 auto;
+	list-style: none;
+	padding-right: 2.5em;
+	padding-bottom: .75em;
+	}
+
+nav a {
+	text-decoration: none;
+	}
+
+nav a:hover {
+	text-decoration: underline;
+	}
+
+#logo h1 {
+	padding: .5em 3em;
+	background: peru;
+
+	}
+	
+/*header, section {
+	margin: 0 auto;
+	max-width: 60%;
+}*/
+
+header {
+	padding-top: 15em;
+	padding-bottom: 3em;
+}
+
+section {
+	/*margin-top: 1em;*/
+	min-height: 25em;
+	padding-top: 2em;
+}
+
+section > p {
+	margin-top: 1em;
+}
+
+section p li {
+	/*padding-left: 5em;
+	list-style-position: inside;*/
+}
+
+#work {
+	padding: 2em 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	grid-column-gap: 1em;
+	margin: 0 auto;
+	max-width: 60%;
+}
+
+#work article {
+	background: #f4f286;
+	padding: 1em;
+} 
+
+
+
+footer {
+	background: #8fbc8b;
+	padding: 1em;
+}
+
+
+
