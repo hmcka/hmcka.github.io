@@ -108,7 +108,10 @@ section p li {
 	padding: 1em;
 } 
 
-
+#work img {
+	-webkit-clip-path: inset(5% 20% 15% 10%);
+	clip-path: inset(5% 20% 15% 10%);
+}
 
 footer {
 	background: #8fbc8b;
