@@ -2,11 +2,18 @@
 	font-family: 'Barlow', sans-serif;
 }
 
+header {
+	padding-top: 1em;
+}
+
 header h1 {
-	font-size: 4em;
+	font-size: 3.75em;
 	font-family: 'Dancing Script', cursive;
 	margin: 0 auto;
 	max-width: 60%;
+	position: relative;
+	z-index: 2;
+
 }
 
 header h2 {
@@ -14,6 +21,9 @@ header h2 {
 	font-size: 1.15em;
 	margin: 0 auto;
 	max-width: 60%;
+	position: relative;
+	z-index: 2;
+	padding-bottom: 3em;
 }
 
 
@@ -22,19 +32,26 @@ section h2 {
 	font-weight: 600;
 	margin: 0 auto;
 	max-width: 60%;
+
 }
 
 section h3 {
 	font-size: 1.5em;
 	font-weight: 600;
 	margin: 0 auto;
-	max-width: 60%;
 }
 
 section p {
 	margin: 0 auto;
 	padding-top: 1em;
 	max-width: 60%;
+	font-size: 1.15em;
+}
+
+article p {
+	margin: 0 auto;
+	padding-top: 1em;
+	max-width: 100%;
 }
 
 section ul {
@@ -63,6 +80,12 @@ nav a {
 	}
 
 footer {
-	font-size: .85em;
+	font-size: 1em;
 	text-align: center;
+}
+
+footer p {
+	font-size: 2em;
+	text-align: center;
+	text-decoration: none;
 }

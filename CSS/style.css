@@ -73,10 +73,7 @@ nav a:hover {
 	max-width: 60%;
 }*/
 
-header {
-	padding-top: 15em;
-	padding-bottom: 3em;
-}
+
 
 section {
 	/*margin-top: 1em;*/
@@ -101,21 +98,38 @@ section p li {
 	grid-column-gap: 1em;
 	margin: 0 auto;
 	max-width: 60%;
+
 }
 
 #work article {
 	background: #f4f286;
-	padding: 1em;
-} 
+	padding: 1em
+	} 
 
 #work img {
-	-webkit-clip-path: inset(5% 20% 15% 10%);
-	clip-path: inset(5% 20% 15% 10%);
+	border-radius: 5%;
+	display: block;
+	margin: auto;
+	max-width:100%;
+	height:auto;
+}
+
+#about img {
+	border-radius: 5%;
 }
 
 footer {
 	background: #8fbc8b;
 	padding: 1em;
+}
+
+.fa {
+	color: black;    
+    padding: .15em;
+}
+
+.fa hover {
+  opacity: .7;
 }
 
 
