@@ -41,9 +41,10 @@ nav {
 	}
 
 nav ul {
-	display: flex;
 	align-items: center;
 	background: peru;
+	display: none;
+	/*display: flex;*/
 	flex-wrap: wrap;
 	}
 
@@ -62,22 +63,24 @@ nav a:hover {
 	text-decoration: underline;
 	}
 
+
+
 #logo h1 {
 	padding: .5em 3em;
 	background: peru;
 
 	}
 	
-/*header, section {
+*header, section {
 	margin: 0 auto;
 	max-width: 60%;
-}*/
+}
 
 
 
 section {
 	/*margin-top: 1em;*/
-	min-height: 25em;
+	/*min-height: 25em;*/
 	padding-top: 2em;
 }
 
