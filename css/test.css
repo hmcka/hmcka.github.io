@@ -1,0 +1,31 @@
+.image-shown {
+  display: inline-block;
+}
+
+.image-hidden {
+  display: none;
+}
+
+.carousel-inner {
+  /*width and height if u want*/
+  position: relative;
+  float: left;
+}
+
+.carousel-inner img {
+ /* width: 100%;
+  height: 100%;*/
+}
+
+.prev-link, .next-link {
+  float: left;
+  margin-top: 100px;
+}
+
+.prev-link {
+  padding-right: 20px;
+}
+
+.next-link {
+  padding-left: 20px;
+}
