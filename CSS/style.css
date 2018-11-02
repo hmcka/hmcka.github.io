@@ -33,7 +33,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	background: peru;
-	align-items: center;
+	align-items: right;
 	grid-column-gap: 1em;
 	position: fixed;
 	top: 0;
@@ -63,6 +63,9 @@ nav a:hover {
 	text-decoration: underline;
 	}
 
+#showUpMenu {
+	display: none;
+}
 
 
 #logo h1 {
@@ -95,10 +98,7 @@ section p li {
 
 #work {
 	padding: 2em 0;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: auto;
-	grid-column-gap: 1em;
+	
 	margin: 0 auto;
 	max-width: 60%;
 
@@ -121,6 +121,35 @@ section p li {
 	border-radius: 5%;
 }
 
+//carousel items
+.article-shown {
+  display: inline-block;
+}
+
+.article-hidden {
+  display: none;
+}
+
+.carousel-inner {
+  width: 60%;
+  margin: auto;
+  position: relative;
+  float: left;
+}
+
+.previousLink, .nextLink {
+  float: left;
+  margin-top: 100px;
+}
+
+.previousLink {
+  padding-right: 20px;
+}
+
+.nextLink {
+  padding-left: 20px;
+}
+
 footer {
 	background: #8fbc8b;
 	padding: 1em;
@@ -139,4 +168,3 @@ footer {
 
 
 
-//mouseover on carousel

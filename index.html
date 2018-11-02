@@ -24,40 +24,34 @@
 				
 				<div id="work">
 
-				<div class="carouselbox active">
-					<div class="buttons">
-							<button class="prev">Back<span class="offscreen">Previous</span></button>
-							<button class="next">Forward	<span class="offscreen">Next</span>
-							</button>
-					</div>		
-  					<ol class="content">
-    					<li>
-    					<article>
+						<div class="carousel-outer">
+							<a class = "previousLink" href="#">Previous</a>	
+						<div class="carousel-inner">
+							<article class = "article-shown" >
 								<h3>Virtual Pet</h3>
 								<a href="https://github.com/hmcka/virtual-pet"><img src="./images/sloth-bear.jpg" alt="line art of a sloth bear" </img></a>
-
 								<p>Spend some time with your virtual pet, Sana the Sloth Bear. Feed her, play with her, and take her outside. Beware of what will happen if you neglect her. </p>
 								<p>Skills Used: Java and TDD</p>
-						</article>
-						</li>
-    					<li class="current">
-    					<article>
+							</article>
+							<article class = "article-hidden" >
 								<h3>Fortune Teller</h3>
 								<a href="https://github.com/hmcka/forntune-teller"><img src="./images/crystal-ball.jpg" alt="line art of a crystal-ball" </img></a>
 								<p>Answer the fortune-teller's few short questions to see what your future holds.</p>
 								<p>Skills Used: Java</p>
 							</article>
-    					</li>
-    					<li>
-						<article>
+							<article class = "article-hidden" >
 								<h3>Pet Shelter</h3>
 								<a href="https://github.com/hmcka/virtual-pets-everywhere"><img src="./images/shelter.jpg" alt="line art of a dog and cat" </img></a>
 								<p>Welcome to Big Al's Pet Shelter and Delicatessen where people come for the sandwiches and take home a pet. It's your job to to keep everyone happy and healthy--pets and humans alike. </p>
 								<p>Skills Used: Java and TDD</p>
 							</article>
-    					</li>
-  					</ol>
-				</div>
+						</div> <!--carousel-inner-->
+							<a class = "nextLink" href="#">Next</a>
+						</div> <!--/*carousel-outer*/-->
+
+				</div> <!--id "work"-->
+
+				
 					
 					
 
@@ -84,16 +78,16 @@
 		</section>
 
 			
-		<nav>
+		<nav id = "workNav">
 		 	<div id="logo">
-		 		<h1><a href="index.html"><img src="./images/hmcka-Logo.svg" alt="Hethur Aluma's logo" width=auto height = "125em"></img></a></h1>
+		 		<h1 id = "alert"><a href="index.html"><img src="./images/hmcka-Logo.svg" alt="Hethur Aluma's logo" width=auto height = "125em"></img></a></h1>
 		 	</div>
-			<ul class="showUpMenu">
+			<ul id="showUpMenu">
       				<li><a href="#work">Work</a></li>
       				<li><a href="#about">About Me</a></li>
      				<li><a href="#getInTouch">Get In Touch </a></li>
     		</ul>
-    		<div id = "burgerMenu" class="hamburger">
+    		<div id = "hamburger">
 		 		<div id = "lineOne" class="line"></div>
 		 		<div id = "lineTwo" class="line"></div>
 		 		<div id = "lineThree" class="line"></div>

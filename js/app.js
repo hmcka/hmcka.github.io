@@ -1,13 +1,7 @@
-//the hamburger menu
-$('.hamburger').on('click', function() {
-	$('.showUpMenu').addClass('.open');
-
-	if($('.showUpMenu').hasClass('.open')) {
-		$('.showUpMenu').removeClass('.open');
-	} else {
-		$('.showUpMenu').addClass('.open');
-	}
-});
+  //the hamburger menu
+  $("#hamburger").click(function() {
+    $("#showUpMenu").toggle().style.display="flex";
+  });
 
 
 //Sliding down the section
@@ -32,38 +26,46 @@ for (i = 0; i < acc.length; i++) {
 
 
 //Carousel
-carousel = (function(){
-  var box = document.querySelector('.carouselbox');
-  var next = box.querySelector('.next');
-  var prev = box.querySelector('.prev');
-  var items = box.querySelectorAll('.content li');
-  var counter = 0;
-  var amount = items.length;
-  var current = items[0];
-  box.classList.add('active');
-  function navigate(direction) {
-    current.classList.remove('current');
-    counter = counter + direction;
-    if (direction === -1 && 
-        counter < 0) { 
-      counter = amount - 1; 
+$(document).ready(function(){
+  
+  $(".nextLink").on("click", function(event) {
+    event.preventDefault();
+    var currentActiveImage = $(".article-shown");
+    var nextActiveImage = currentActiveImage.next();
+    
+
+    if(nextActiveImage.length == 0) {
+      nextActiveImage = $(".carousel-inner article").first();
     }
-    if (direction === 1 && 
-        !items[counter]) { 
-      counter = 0;
+
+    currentActiveImage.removeClass("article-shown").addClass("article-hidden").css("z-index", -10);
+    nextActiveImage.addClass("article-shown").removeClass("article-hidden").css("z-index", 20);
+    $(".carousel-inner img").not([currentActiveImage, nextActiveImage]).css("z-index", 1);
+    
+  });
+
+  $(".previousLink").on("click", function(event) {
+    event.preventDefault();
+    var currentActiveImage = $(".article-shown");
+    var nextActiveImage = currentActiveImage.next();
+    
+
+    if(nextActiveImage.length == 0) {
+      nextActiveImage = $(".carousel-inner article").first();
     }
-    current = items[counter];
-    current.classList.add('current');
-  }
-  next.addEventListener('click', function(ev) {
-    navigate(1);
+
+    currentActiveImage.removeClass("article-shown").addClass("article-hidden").css("z-index", -10);
+    nextActiveImage.addClass("article-shown").removeClass("article-hidden").css("z-index", 20);
+    $(".carousel-inner img").not([currentActiveImage, nextActiveImage]).css("z-index", 1);
+    
   });
-  prev.addEventListener('click', function(ev) {
-    navigate(-1);
-  });
-  navigate(0);
-})();
+
+});
 
 
-//mouseover
+//alert
+var alertButton = document.getElementById('alert');
+alertButton.onclick = function() {
+    alert('One chick that likes to build things');
+}
 
