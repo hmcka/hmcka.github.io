@@ -5,44 +5,6 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+
+
 }
-
-.hamburger {
-    cursor: pointer;
-    padding: 15px;
-    display: block;
-}
-
-.menu {
-	display: none;
-}
-
-.open {
-	display: flex;
-}
-
-.line {
-	border-bottom: 4px solid #000000;
-	width: 35px;
-	margin-bottom: 6px;
-}
-
-.line:last-child {
-	margin-bottom: 0;
-}
-
-
-
-.accordion {
-    cursor: pointer;
-    outline: none;
-    transition: 0.4s;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    display: none;
-    overflow: hidden;
-}
-
-

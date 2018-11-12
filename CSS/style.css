@@ -33,7 +33,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	background: peru;
-	align-items: right;
+	align-items: center;
 	grid-column-gap: 1em;
 	position: fixed;
 	top: 0;
@@ -41,10 +41,9 @@ nav {
 	}
 
 nav ul {
+	display: flex;
 	align-items: center;
 	background: peru;
-	display: none;
-	/*display: flex;*/
 	flex-wrap: wrap;
 	}
 
@@ -63,27 +62,22 @@ nav a:hover {
 	text-decoration: underline;
 	}
 
-#showUpMenu {
-	display: none;
-}
-
-
 #logo h1 {
 	padding: .5em 3em;
 	background: peru;
 
 	}
 	
-*header, section {
+/*header, section {
 	margin: 0 auto;
 	max-width: 60%;
-}
+}*/
 
 
 
 section {
 	/*margin-top: 1em;*/
-	/*min-height: 25em;*/
+	min-height: 25em;
 	padding-top: 2em;
 }
 
@@ -98,7 +92,10 @@ section p li {
 
 #work {
 	padding: 2em 0;
-	
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	grid-column-gap: 1em;
 	margin: 0 auto;
 	max-width: 60%;
 
@@ -121,35 +118,6 @@ section p li {
 	border-radius: 5%;
 }
 
-//carousel items
-.article-shown {
-  display: inline-block;
-}
-
-.article-hidden {
-  display: none;
-}
-
-.carousel-inner {
-  width: 60%;
-  margin: auto;
-  position: relative;
-  float: left;
-}
-
-.previousLink, .nextLink {
-  float: left;
-  margin-top: 100px;
-}
-
-.previousLink {
-  padding-right: 20px;
-}
-
-.nextLink {
-  padding-left: 20px;
-}
-
 footer {
 	background: #8fbc8b;
 	padding: 1em;
@@ -163,8 +131,6 @@ footer {
 .fa hover {
   opacity: .7;
 }
-
-
 
 
 
