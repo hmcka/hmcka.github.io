@@ -7,18 +7,33 @@
 </head>
 <body>
 
-<div class="carousel-outer">
-	<a class = "previousLink" href="#">Previous</a>	
-	<div class="carousel-inner">
-		<img class = "image-shown" src="./images/sloth-bear.jpg" alt="line art of a sloth bear"> </img>
-		<img class = "image-hidden" src="./images/crystal-ball.jpg" alt="line art of a crystal-ball"> </img>
-		<img class = "image-hidden" src="./images/shelter.jpg" alt="line art of a dog and cat"> </img>
-	</div>
-	<a class = "nextLink" href="#">Next</a>
+		<h2>Contact</h2>
+		<p>
+		<form action="/my-handling-form-page" method="post">
+			<div>
+			  <label class="visuallyhidden" for="name">Name</label>
+			  <input type="text" id="name" name="user_name" value="Name">
+			</div>
+			<div>
+			  <label class="visuallyhidden" for="mail">Mail</label>
+			  <input type="email" id="mail" name="user_mail" value="Email">
+			</div>
+			<div>
+				<label class="visuallyhidden" for="subject">Subject</label>
+				<input type="text" id="subject" name="user_subject" value="Subject">
+			</div>
+			<div>
+			  <label class="visuallyhidden" for="msg">Message</label>
+			  <textarea id="msg" name="user_message" value="Message">Message</textarea>
+			</div>
+			<div class="button">
+					<button type="submit">Send</button>
+			</div>
+		</form>		
+		</p>
 
 
 	<script src="./js/jquery-3.3.1.js"></script>
-	<script src="./js/test.js"></script>
 
 </body>
 </html>
