@@ -54,21 +54,22 @@ section p {
 	font-size: 1.15em;
 	padding-bottom: 1em;
 }
-.grid-container p {
+.grid-container-3 p, .grid-container-4 p {
 	padding-top: 0;
 	line-height: 1.20em;
 	max-width: 90%;
 	font-size: 1.15em;
 	padding-bottom: 0em;
 }
-.grid-container h3 {
+.grid-container-3 h3, .grid-container-4 h3 {
 	padding-bottom: .35em;
 }
-.grid-container a {
+.grid-container-3 a, .grid-container-4 a {
 	text-decoration: none;
 	color: black;
 }
-.grid-container a:hover, .grid-container a:active {
+.grid-container-3 a:hover, .grid-container-3 a:active, 
+.grid-container-4 a:hover, .grid-container-4 a:active {
 	color: black;
 	text-decoration: underline;
 }
@@ -171,7 +172,7 @@ section p {
 	max-width: 80%;
 	font-size: 1.15em;
 }
-.grid-container p {
+.grid-container-3 p  {
 	margin: auto auto;
 	padding-top: 0;
 	line-height: 1.15em;
@@ -180,18 +181,36 @@ section p {
 	padding-bottom: .45em;
 	text-align: center;
 }
-.grid-container h3 {
+.grid-container-4 p {
+	margin: auto auto;
+	padding-top: 0;
+	line-height: 1.15em;
+	max-width: 100%;
+	font-size: 1em;
+	padding-bottom: .75em;
+	text-align: left;
+}
+.grid-container-3 h3 {
 	margin: auto auto;
 	max-width: 80%;
 	padding-bottom: .35em;
 	text-align: center;
 	white-space: nowrap;
 }
-.grid-container a {
+.grid-container-4 h3 {
+	line-height: 1.15em;
+	margin: auto auto;
+	max-width: 80%;
+	padding-bottom: .75em;
+	padding-top: 1.5em;
+	text-align: center;
+	/*white-space: nowrap;*/
+}
+.grid-container-3 a, .grid-container-4 a {
 	text-decoration: none;
 	color: black;
 }
-.grid-container a:hover {
+.grid-container-3 a:hover, .grid-container-4 a:hover {
 	color: black;
 	text-decoration: underline;
 }
@@ -269,6 +288,7 @@ header h2 {
 	padding: .8em 0 0 0;
 }
 section{
+	/*padding-top: 1em;*/
 	padding-bottom: 1em;
 }
 section h2 {
@@ -291,7 +311,7 @@ section p {
 	max-width: 60%;
 	font-size: 1.15em;
 }
-.grid-container p {
+.grid-container-3 p, {
 	margin: auto auto;
 	padding-top: 0;
 	line-height: 1.15em;
@@ -300,18 +320,35 @@ section p {
 	padding-bottom: .45em;
 	text-align: center;
 }
-.grid-container h3 {
+.grid-container-4 p {
+	margin: auto auto;
+	padding-top: 0;
+	line-height: 1.15em;
+	max-width: 100%;
+	font-size: 1em;
+	padding-bottom: .75em;
+	text-align: left;
+}
+.grid-container-3 h3,  {
 	margin: auto auto;
 	max-width: 80%;
 	padding-bottom: .35em;
 	text-align: center;
 	white-space: nowrap;
 }
-.grid-container a {
+.grid-container-4 h3 {
+	line-height: 1.15em;
+	margin: auto auto;
+	max-width: 80%;
+	padding-bottom: .75em;
+	text-align: center;
+	/*white-space: nowrap;*/
+}
+.grid-container-3 a, .grid-container-4 a {
 	text-decoration: none;
 	color: black;
 }
-.grid-container a:hover {
+.grid-container-3 a:hover, .grid-container-4 a:hover {
 	color: black;
 	text-decoration: underline;
 }
