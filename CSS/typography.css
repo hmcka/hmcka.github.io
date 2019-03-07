@@ -54,6 +54,7 @@ section p {
 	font-size: 1.15em;
 	padding-bottom: 1em;
 }
+
 .grid-container-3 p, .grid-container-4 p {
 	padding-top: 0;
 	line-height: 1.20em;
@@ -248,6 +249,7 @@ footer a:hover {
 }
 	
 @media (min-width: 1200px)  { 
+
 header h1 {
 	font-size: 2.5em;
 	font-family: 'Dancing Script', cursive;
@@ -289,29 +291,44 @@ header h2 {
 }
 section{
 	/*padding-top: 1em;*/
-	padding-bottom: 1em;
+	/*padding-bottom: 1em;*/
 }
 section h2 {
 	font-size: 2em;
 	font-weight: 600;
 	margin: 0 auto;
-	max-width: 60%;
+	max-width: 50%;
+	text-align: center;
 }
 section h3 {
 	font-size: 1.5em;
 	font-weight: 600;
 	margin: 0 auto;
 	padding-bottom: .5em;
-	width: 60%;
+	width: 50%;
 }
 section p {
 	margin: 0 auto;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	max-width: 60%;
+	max-width: 50%;
 	font-size: 1.15em;
 }
-.grid-container-3 p, {
+#prod p {
+	margin: 0 auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	max-width: 70%;
+	font-size: 1.15em;
+}
+/*#shape-div p {
+	/*margin: 0 auto;*/
+	/*padding-top: 1em;
+	max-width: 90%;
+	font-size: 1.15em;
+	padding-bottom: 1em;
+}*/
+.grid-container-3 p {
 	margin: auto auto;
 	padding-top: 0;
 	line-height: 1.15em;
@@ -329,7 +346,7 @@ section p {
 	padding-bottom: .75em;
 	text-align: left;
 }
-.grid-container-3 h3,  {
+.grid-container-3 h3  {
 	margin: auto auto;
 	max-width: 80%;
 	padding-bottom: .35em;
@@ -344,14 +361,15 @@ section p {
 	text-align: center;
 	/*white-space: nowrap;*/
 }
-.grid-container-3 a, .grid-container-4 a {
+.grid-container-2 a, .grid-container-3 a, .grid-container-4 a {
 	text-decoration: none;
 	color: black;
 }
-.grid-container-3 a:hover, .grid-container-4 a:hover {
+.grid-container-2 a:hover, .grid-container-3 a:hover, .grid-container-4 a:hover {
 	color: black;
 	text-decoration: underline;
 }
+
 footer {
 	font-size: 1em;
 	text-align: center;

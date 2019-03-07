@@ -82,6 +82,11 @@ header {
 .nav-item:hover, .nav-item:active {
 	text-decoration: underline;
 }
+#prod {
+	padding-top: 10.7em;
+	background-image: url("../images/test1.jpg");
+	
+}
 .grid-container-3 {
 	text-align: center;
 	display: grid;
@@ -144,6 +149,10 @@ header {
 }
 #about {
 	padding-top: 15.8em;
+}
+#prod {
+	padding-top: 10.7em;
+	background-image: url("../images/test1.jpg");
 }
 section {
 	min-height: 25em;
@@ -235,10 +244,49 @@ header {
 	display:block;
 	padding:15px 20px;
 }
-#about {
-	padding-top: 10.7em;
+section {
+	box-sizing: border-box;
+	clear: both;
+	padding-top: 3em;
 }
-.grid-container-3 {
+#about {
+	padding-top: 12.7em;
+}
+#prod {
+	padding-left: 50%;
+	padding-right: 0;
+	padding-top: 14.7em;
+	background-image: url("../images/prod-app1.jpg");
+	height: 50em;
+	bakground-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  	top: 0;
+  	left: 0;
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+}
+/*#shape-container {
+
+}
+#shape-div {
+	shape-outside: polygon(0 0, 0 200px, 200px 300px);
+	width: 100em;
+	height: 50em;
+	float: left;
+  }*/
+  .grid-container-2 {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 47% 47%;
+	grid-column-gap: 5%;
+	margin: auto auto;
+	padding-bottom: 1em;
+	width: 80%;
+}
+  .grid-container-3 {
 	text-align: center;
 	display: grid;
 	grid-template-columns: 28% 29% 28%;
@@ -246,6 +294,13 @@ header {
 	margin: auto auto;
 	padding-bottom: 1em;
 	width: 60%;
+}
+.grid-container-3 img {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+  height: auto;
+	padding-top: 1em;
 }
 .grid-container-4 {
 	text-align: center;
@@ -257,12 +312,13 @@ header {
 	padding-top: 3em;
 	width: 90%;
 }
-.grid-container-3 img {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 80%;
-  height: auto;
-	padding-top: 1em;
+#branding {
+	background-color: #CCC;
+	margin: 0 auto;
+	width: 100%;
+}
+#branding-container {
+
 }
 footer {
 }
