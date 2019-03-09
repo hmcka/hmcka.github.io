@@ -346,6 +346,14 @@ section p {
 	padding-bottom: .75em;
 	text-align: left;
 }
+.grid-container-2 h3  {
+	margin: auto auto;
+	max-width: 80%;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	text-align: center;
+	white-space: nowrap;
+}
 .grid-container-3 h3  {
 	margin: auto auto;
 	max-width: 80%;

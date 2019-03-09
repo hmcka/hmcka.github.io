@@ -171,7 +171,6 @@ section {
 	display: grid;
 	grid-template-columns: 45% 45%;
 	grid-column-gap: 10%;
-	margin: auto auto;
 	padding-top: 1em;
 	width: 80%;
 }
@@ -277,13 +276,18 @@ section {
 	height: 50em;
 	float: left;
   }*/
-  .grid-container-2 {
+.grid-container-2 img {
+	padding-top: .5em;
+	width: auto;
+	/*height: 275px;*/
+}
+.grid-container-2 {
 	text-align: center;
 	display: grid;
 	grid-template-columns: 47% 47%;
 	grid-column-gap: 5%;
 	margin: auto auto;
-	padding-bottom: 1em;
+	padding-bottom: 3em;
 	width: 80%;
 }
   .grid-container-3 {
@@ -308,12 +312,17 @@ section {
 	grid-template-columns: 22% 22% 22% 22%;
 	grid-column-gap: 5%;
 	margin: auto auto;
-	/*padding-bottom: 3em;*/
+	padding-bottom: 4em;
 	padding-top: 3em;
 	width: 90%;
 }
+.grid-container-box{
+	background-color: #f2f47c;;
+	border-radius: 1em;
+	padding: 1em;
+}
 #branding {
-	background-color: #CCC;
+	background-color:#e3ac7d;
 	margin: 0 auto;
 	width: 100%;
 }
