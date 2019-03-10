@@ -377,6 +377,19 @@ section p {
 	color: black;
 	text-decoration: underline;
 }
+.arch h3 {
+	margin: 0 auto;
+	padding-bottom: .5em;
+	padding-top: 1em;
+	width: 80%;
+}
+section h3 {
+	font-size: 1.5em;
+	font-weight: 600;
+	margin: 0 auto;
+	padding-bottom: .5em;
+	width: 50%;
+}
 
 footer {
 	font-size: 1em;

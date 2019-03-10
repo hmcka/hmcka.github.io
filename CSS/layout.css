@@ -257,7 +257,7 @@ section {
 	padding-top: 12.7em;
 	background-image: url("../images/prod-app1.jpg");
 	height: 43em;
-	bakground-position: center;
+	/*background-position: center;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -318,7 +318,7 @@ section {
 	width: 90%;
 }
 .grid-container-box{
-	background-color: #f2f47c;;
+	background-color: #f2f47c;
 	border-radius: 1em;
 	padding: 1em;
 }
@@ -329,6 +329,14 @@ section {
 }
 #branding-container {
 
+}
+.arch img {
+	/*padding-left: 55%;
+	padding-right: 0;
+	padding-top: 12.7em;*/
+	position: relative;
+	/*min-width: 1024px;*/
+	width: 100%;
 }
 footer {
 }
