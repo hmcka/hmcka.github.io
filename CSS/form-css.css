@@ -1,6 +1,6 @@
 @media (max-width: 599px) { 
 form {
-  /*background-color: #f2f47c;*/
+    background-color: #f2f47c;
     margin: 1.9em auto;
     width: 90%;
     padding: 1em;
@@ -55,7 +55,7 @@ form {
 
 @media (min-width: 600px) and (max-width: 1199px) { 
   form {
-    /*background-color: #f2f47c;*/
+    background-color: #f2f47c;
     margin: 1.9em auto;
     width: 80%;
     padding: 1em;
