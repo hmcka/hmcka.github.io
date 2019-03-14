@@ -9,7 +9,7 @@
 
 
 
-@media (max-width: 599px) {
+@media (min-width: 1px) and (max-width: 599px) {
 header h1{
 	
 	text-align: center;
