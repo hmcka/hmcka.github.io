@@ -4,7 +4,7 @@ main {
 	background-repeat-y: repeat;
 }
 
-@media (max-width: 599px) { 
+@media (min-width: 1px) and (max-width: 599px) { 
 body {
 	background: peru;
 }
