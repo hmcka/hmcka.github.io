@@ -1,10 +1,9 @@
+@media (min-width: 1px) and (max-width: 599px) { 
 main {
 	background-image: url("../images/bkgrnd-light_grey.png");
 	background-repeat-x: repeat;
 	background-repeat-y: repeat;
 }
-
-@media (min-width: 1px) and (max-width: 599px) { 
 body {
 	background: peru;
 }
@@ -92,13 +91,9 @@ header {
 .grid-container-2 img {
 	padding-top: .5em;
 	width: auto;
-	/*height: 275px;*/
 }
 .grid-container-2 {
 	text-align: center;
-	/*display: grid;
-	grid-template-columns: 47% 47%;
-	grid-column-gap: 5%;*/
 	margin: auto auto;
 	padding-bottom: 2em;
 	width: 90%;
@@ -136,21 +131,19 @@ header {
 	padding-top: 3em;
 	width: 100%;
 }
-#branding-container {
-
-}
 .arch img {
-	/*padding-left: 55%;
-	padding-right: 0;
-	padding-top: 12.7em;*/
 	position: relative;
-	/*min-width: 1024px;*/
 	width: 100%;
 }
 }
 
 
 @media (min-width: 600px) and (max-width: 1199px) { 
+main {
+	background-image: url("../images/bkgrnd-light_grey.png");
+	background-repeat-x: repeat;
+	background-repeat-y: repeat;
+}
 header {
 	background: peru;
 	margin-right: 0;
@@ -202,14 +195,12 @@ header {
 }
 
 section {
-	/*min-height: 25em;*/
 	padding-top: 1em;
 }
 
 .grid-container-2 img {
 	padding-top: .5em;
 	width: auto;
-	/*height: 275px;*/
 }
 .grid-container-2 {
 	text-align: center;
@@ -257,16 +248,8 @@ section {
 	padding-top: 3em;
 	width: 100%;
 }
-#branding-container {
-
-}
-
 .arch img {
-	/*padding-left: 55%;
-	padding-right: 0;
-	padding-top: 12.7em;*/
 	position: relative;
-	/*min-width: 1024px;*/
 	width: 100%;
 }
 #work article {
@@ -283,8 +266,7 @@ section {
 #about img {
 	border-radius: 5%;
 }
-footer {
-}
+
 }
 
 
@@ -315,7 +297,6 @@ header {
 	margin-right: 0;
 	margin-top: 5em;
 	width: 50%;
-	/*position: absolute;*/
 	width: 50%;
 	position:relative;
 }
@@ -346,25 +327,14 @@ section {
 	padding-top: 12.7em;
 	background-image: url("../images/prod-app1.jpg");
 	height: 43em;
-	/*background-position: center;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
   	top: 0;
 	left: 0;
 	min-height: 100%;
-	/*min-width: 1024px;*/
 	width: 100%;
 }
-/*#shape-container {
-
-}
-#shape-div {
-	shape-outside: polygon(0 0, 0 200px, 200px 300px);
-	width: 100em;
-	height: 50em;
-	float: left;
-  }*/
 .grid-container-2 img {
 	padding-top: .5em;
 	width: auto;
@@ -416,18 +386,9 @@ section {
 	margin: 0 auto;
 	width: 100%;
 }
-#branding-container {
-
-}
 .arch img {
-	/*padding-left: 55%;
-	padding-right: 0;
-	padding-top: 12.7em;*/
 	position: relative;
-	/*min-width: 1024px;*/
 	width: 100%;
-}
-footer {
 }
 }
 
