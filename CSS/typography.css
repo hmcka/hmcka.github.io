@@ -1,13 +1,17 @@
+
 * {
 	font-family: 'Barlow', sans-serif;
 }
+.sm-icons a {
+	color: black;
+	text-decoration-line: none;
+}
+
 
 
 @media (max-width: 599px) {
-* {
-	font-family: 'Barlow', sans-serif;
-}
 header h1{
+	
 	text-align: center;
 }
 #name-space h1 {
@@ -116,15 +120,14 @@ article p {
 	width: 80%;
 }
 footer {
-	font-size: 1em;
 	margin-top: 1em;
+}
+footer p {
+	font-size: .9em;
 	text-align: center;
 	text-decoration: none;
 }
-footer p {
-	font-size: 2em;
-	text-align: center;
-}
+
 footer a {
 	text-decoration: none;
 	color: black;
@@ -284,24 +287,15 @@ section h3 {
 	padding-bottom: .5em;
 	width: 50%;
 }
+
 footer {
-	font-size: 1em;
-	text-align: center;
-}
-footer p {
-	font-size: 2em;
-	text-align: center;
-	text-decoration: none;
-}
-footer {
-	font-size: 1em;
 	margin-top: 1em;
-	text-align: center;
-	text-decoration: none;
+
 }
 footer p {
-	font-size: 2em;
+	font-size: .9em;
 	text-align: center;
+	text-decoration: none;
 }
 footer a {
 	text-decoration: none;
@@ -376,7 +370,11 @@ section p {
 	padding-top: 1em;
 	padding-bottom: 1em;
 	max-width: 50%;
-	font-size: 1.15em;
+	font-size: 1.45em;;
+}
+
+#about p {
+	font-size: 1.5em;;
 }
 #prod p {
 	margin: 0 auto;
@@ -456,17 +454,9 @@ section h3 {
 }
 
 footer {
-	font-size: 1em;
-	text-align: center;
-}
-footer {
-	font-size: 1em;
-	margin-top: 1em;
-	text-align: center;
-	text-decoration: none;
 }
 footer p {
-	font-size: 2em;
+	font-size: .9em;
 	text-align: center;
 	text-decoration: none;
 }

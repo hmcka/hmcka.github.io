@@ -191,7 +191,7 @@ header {
 	width: 100%;
 }
 #about {
-	padding-top: 15.8em;
+	padding-top: 17em;
 }
 #prod {
 	padding-left: 0;
@@ -334,6 +334,7 @@ header {
 section {
 	box-sizing: border-box;
 	clear: both;
+	min-height: 25em;
 	padding-top: 3em;
 }
 #about {
