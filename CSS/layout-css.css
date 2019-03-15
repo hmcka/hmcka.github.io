@@ -70,15 +70,18 @@ header {
 	top: 0;
 }
 #nav-list {
-	padding-top: .5em;
-	padding-bottom: .5em;
+	list-style-type: none;
 }
 .nav-item {
 	list-style: none;
-	margin: 8px 0;
 	text-decoration: none;
+	color: #f2f2f2;
+	font-size: 1.5em;
+	line-height: 2.25;
+	/*padding-left: .5em;*/
 }
 .nav-item:hover, .nav-item:active {
+	color: #f2f2f2;
 	text-decoration: underline;
 }
 #prod {
@@ -113,7 +116,7 @@ header {
 	padding-bottom: 1em;
 }
 .grid-container-3 img {
-	padding-top: 2em;
+	padding-top: 1em;
 }
 .grid-container-box{
 	background-color: #f2f47c;
@@ -121,14 +124,14 @@ header {
 	padding: 1em;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	margin-top: 1em;
-	width: 90%;
+	width: 80%;
 }
 #branding {
 	background-color:#e3ac7d;
 	margin: 0 auto;
-	padding-top: 3em;
+	padding-top: 2em;
 	width: 100%;
 }
 .arch img {
@@ -193,9 +196,9 @@ header {
 	background-image: url("../images/prod-app2.jpg");
 	background-repeat: no-repeat;
 }
-
 section {
 	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .grid-container-2 img {
@@ -223,9 +226,7 @@ section {
 .grid-container-4 {
 	text-align: center;
 	display: grid;
-	grid-template-columns: 45% 45%;
-	grid-column-gap: 10%;
-	margin: auto;
+	margin: 0 auto;
 	padding-top: 1em;
 	width: 80%;
 }
@@ -241,6 +242,7 @@ section {
 	border-radius: 1em;
 	padding: 1em;
 	margin-bottom: 3em;
+
 }
 #branding {
 	background-color:#e3ac7d;

@@ -8,7 +8,6 @@ body {
 	text-decoration-line: none;
 }
 header h1{
-	
 	text-align: center;
 }
 #name-space h1 {
@@ -18,6 +17,8 @@ header h1{
 	text-align: center;
 	text-transform: none;
 	margin: 0 auto;
+	padding-bottom: .35em;
+	padding-top: .5em;
 }
 #name-space h2 {
 	font-weight: 400;
@@ -27,11 +28,9 @@ header h1{
 	text-align: center;
 	margin: 0 auto;
 }
-.nav-item {
-	color: #f2f2f2;
-	font-size: 1.5em;
-	line-height: 2.5;
-	padding-left: .5em;
+#about h2 {
+	padding-bottom: .25em;
+	padding-top: 1em;
 }
 section{
 	padding-bottom: 1em;
@@ -41,44 +40,38 @@ section h2 {
 	font-weight: 600;
 	margin: 0 auto;
 	max-width: 90%;
+	padding-bottom: .25em;
+	padding-top: 1em;
 	text-align: center;
 }
 section h3 {
-	font-size: 1.5em;
+	font-size: 1.65em;
 	font-weight: 600;
 	margin: 0 auto;
+	padding-top: .5em;
+	padding-bottom: .5em;
 	width: 90%;
 }
 section p {
 	margin: 0 auto;
 	padding-top: 1em;
-	max-width: 90%;
-	font-size: 1.15em;
+	max-width: 85%;
+	font-size: 1.25em;
+	line-height: 1.5;
 	padding-bottom: 1em;
 }
+/*
+#about p {
+	font-size: 1.5em;;
+}
+*/
 #prod p {
-	line-height: 1.65em;
+	/*line-height: 1.65em;
 	margin: 0 auto;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	max-width: 90%;
-	font-size: 1.15em;
-}
-.grid-container-3 p {
-	padding-top: 0;
-	line-height: 1.20em;
-	max-width: 90%;
-	font-size: 1.15em;
-	padding-bottom: 0em;
-}
-.grid-container-4 p {
-	margin: auto auto;
-	padding-top: 0;
-	line-height: 1.25em;
-	max-width: 100%;
-	font-size: 1em;
-	padding-bottom: .75em;
-	text-align: left;
+	max-width: 85%;
+	font-size: 1.15em;*/
 }
 .grid-container-2 h3  {
 	margin: auto auto;
@@ -88,8 +81,27 @@ section p {
 	text-align: center;
 	white-space: nowrap;
 }
-.grid-container-3 h3, .grid-container-4 h3 {
-	padding-bottom: .35em;
+.grid-container-3 h3 {
+	/*padding-bottom: .35em;*/
+}
+.grid-container-3 p {
+	padding-top: .25em;;
+	line-height: 1.5em;
+	max-width: 90%;
+	font-size: 1.15em;
+	padding-bottom: 0em;
+}
+.grid-container-4 h3 {
+	padding-bottom: .5em;
+}
+.grid-container-4 p {
+	margin: auto auto;
+	padding-top: .25em;
+	line-height: 1.25em;
+	max-width: 90%;
+	font-size: 1.15em;
+	padding-bottom: .5em;
+	text-align: left;
 }
 .grid-container-2 a, .grid-container-3 a, .grid-container-4 a {
 	text-decoration: none;
@@ -100,11 +112,6 @@ section p {
 .grid-container-4 a:hover, .grid-container-4 a:active {
 	color: black;
 	text-decoration: underline;
-}
-article p {
-	margin: 0 auto;
-	padding-top: 1em;
-	max-width: 100%;
 }
 #logo h1  {
 	line-height: 0;
@@ -117,7 +124,8 @@ article p {
 	width: 80%;
 }
 footer {
-	margin-top: 1em;
+	margin-top: 7em;
+	padding-bottom: .5em;
 }
 footer p {
 	font-size: .9em;
@@ -164,9 +172,9 @@ header h1{
 	text-align: center;
 }
 #nav-list {
-	list-style: none;
+	/*list-style: none;
 	padding-bottom: .35em;
-	padding-top: .35em;
+	padding-top: .35em;*/
 	}
 .nav-item {
 	font-weight: 600;
@@ -181,7 +189,7 @@ header h1{
 	text-decoration: none;
 	color: black;
 }
-.nav-item:hover {
+.nav-item:hover, .nav-item:active {
 	color: black;
 	text-decoration: underline;
 }
@@ -190,9 +198,7 @@ header h1{
 	padding: .8em 0 0 0;
 	text-align: center;
 }
-section{
-	padding-bottom: 1em;
-}
+
 section h2 {
 	font-size: 2em;
 	font-weight: 600;
@@ -204,6 +210,7 @@ section h3 {
 	font-size: 1.5em;
 	font-weight: 600;
 	margin: 0 auto;
+	padding-bottom: .5em;
 	width: 80%;
 }
 section p {
@@ -215,7 +222,9 @@ section p {
 	font-size: 1.15em;
 	position: relative;
 }
-
+/*#about p {
+	font-size: 1.5em;;
+}*/
 #prod p {
 	line-height: 1.65em;
 	margin: 0 auto;
@@ -232,6 +241,13 @@ section p {
 	text-align: center;
 	white-space: nowrap;
 }
+.grid-container-3 h3 {
+	margin: auto auto;
+	max-width: 80%;
+	padding-bottom: .35em;
+	text-align: center;
+	white-space: nowrap;
+}
 .grid-container-3 p  {
 	margin: auto auto;
 	padding-top: 0;
@@ -239,6 +255,13 @@ section p {
 	max-width: 100%;
 	font-size: 1em;
 	padding-bottom: .45em;
+	text-align: center;
+}
+.grid-container-4 h3 {
+	line-height: 1.15em;
+	max-width: 80%;
+	padding-bottom: .75em;
+	padding-top: .5em;
 	text-align: center;
 }
 .grid-container-4 p {
@@ -250,32 +273,14 @@ section p {
 	padding-bottom: .75em;
 	text-align: left;
 }
-.grid-container-3 h3 {
-	margin: auto auto;
-	max-width: 80%;
-	padding-bottom: .35em;
-	text-align: center;
-	white-space: nowrap;
-}
-.grid-container-4 h3 {
-	line-height: 1.15em;
-	max-width: 80%;
-	padding-bottom: .75em;
-	padding-top: .5em;
-	text-align: center;
-}
 .grid-container-2 a, .grid-container-3 a, .grid-container-4 a {
 	text-decoration: none;
 	color: black;
 }
-.grid-container-2 a:hover, .grid-container-3 a:hover, .grid-container-4 a:hover {
+.grid-container-2 a:hover, .grid-container-3 a:hover, .grid-container-4 a:hover, 
+.grid-container-2 a:active, .grid-container-3 a:active, .grid-container-4 a:active {
 	color: black;
 	text-decoration: underline;
-}
-article p {
-	margin: 0 auto;
-	padding-top: 1em;
-	max-width: 100%;
 }
 .arch h3 {
 	margin: 0 auto;
@@ -283,17 +288,8 @@ article p {
 	padding-top: 1em;
 	width: 80%;
 }
-section h3 {
-	font-size: 1.5em;
-	font-weight: 600;
-	margin: 0 auto;
-	padding-bottom: .5em;
-	width: 50%;
-}
-
 footer {
 	margin-top: 1em;
-
 }
 footer p {
 	font-size: .9em;
@@ -304,7 +300,7 @@ footer a {
 	text-decoration: none;
 	color: black;
 }
-footer a:hover {
+footer a:hover, footer a:active {
 	text-decoration: underline;
 }
 }
@@ -333,6 +329,29 @@ header h2 {
 	white-space: nowrap;
 	text-align: left;
 }
+
+/*
+#name-space h1 {
+	font-size: 1.9em;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	z-index: 2;
+	white-space: nowrap;
+}
+#name-space h2 {
+	font-weight: 400;
+	font-size: 1.05em;
+	position: relative;
+	z-index: 2;
+	padding-bottom: 1em;
+	line-height: 1em;
+	white-space: nowrap;
+	text-align: center;
+}
+*/
+.nav-list {
+
+}
 .nav-item {
 	font-weight: 600;
 	list-style: none;
@@ -341,7 +360,7 @@ header h2 {
 	font-size: 1.5em;
 	line-height: 2;
 }
-.nav-item:hover {
+.nav-item:hover, .nav-item:active {
 	text-decoration: underline;
 }
 #logo h1  {
@@ -380,24 +399,6 @@ section p {
 	max-width: 70%;
 	font-size: 1.15em;
 }
-.grid-container-3 p {
-	margin: auto auto;
-	padding-top: 0;
-	line-height: 1.15em;
-	max-width: 100%;
-	font-size: 1em;
-	padding-bottom: .45em;
-	text-align: center;
-}
-.grid-container-4 p {
-	margin: auto auto;
-	padding-top: 0;
-	line-height: 1.15em;
-	max-width: 100%;
-	font-size: 1em;
-	padding-bottom: .75em;
-	text-align: left;
-}
 .grid-container-2 h3  {
 	margin: auto auto;
 	max-width: 80%;
@@ -413,6 +414,15 @@ section p {
 	text-align: center;
 	white-space: nowrap;
 }
+.grid-container-3 p {
+	margin: auto auto;
+	padding-top: 0;
+	line-height: 1.15em;
+	max-width: 100%;
+	font-size: 1em;
+	padding-bottom: .45em;
+	text-align: center;
+}
 .grid-container-4 h3 {
 	line-height: 1.15em;
 	margin: auto auto;
@@ -420,11 +430,21 @@ section p {
 	padding-bottom: .75em;
 	text-align: center;
 }
+.grid-container-4 p {
+	margin: auto auto;
+	padding-top: 0;
+	line-height: 1.15em;
+	max-width: 100%;
+	font-size: 1em;
+	padding-bottom: .75em;
+	text-align: left;
+}
 .grid-container-2 a, .grid-container-3 a, .grid-container-4 a {
 	text-decoration: none;
 	color: black;
 }
-.grid-container-2 a:hover, .grid-container-3 a:hover, .grid-container-4 a:hover {
+.grid-container-2 a:hover, .grid-container-3 a:hover, .grid-container-4 a:hover,
+.grid-container-2 a:active, .grid-container-3 a:active, .grid-container-4 a:active {
 	color: black;
 	text-decoration: underline;
 }
@@ -434,12 +454,8 @@ section p {
 	padding-top: 1em;
 	width: 80%;
 }
-section h3 {
-	font-size: 1.5em;
-	font-weight: 600;
-	margin: 0 auto;
-	padding-bottom: .5em;
-	width: 50%;
+footer {
+	margin-top: 1em;
 }
 footer p {
 	font-size: .9em;
@@ -450,7 +466,7 @@ footer a {
 	text-decoration: none;
 	color: black;
 }
-footer a:hover {
+footer a:hover, footer a:active {
 	text-decoration: underline;
 }
 }	
