@@ -166,15 +166,17 @@ header h1{
 	font-size: 1.05em;
 	position: relative;
 	z-index: 2;
-	padding-bottom: 1em;
-	line-height: 1em;
+	padding-bottom: 0em;
+	line-height: 0em;
 	white-space: nowrap;
 	text-align: center;
 }
 #nav-list {
-	/*list-style: none;
-	padding-bottom: .35em;
-	padding-top: .35em;*/
+	list-style: none;
+	margin: 0 auto;
+	padding-bottom: .25em;
+	padding-top: .25em;
+	width: 90%;
 	}
 .nav-item {
 	font-weight: 600;
@@ -183,7 +185,6 @@ header h1{
 	text-decoration: none;
 	color: black;
 	font-size: 1.25em;
-	line-height: 1.25;
 }
 .nav-item a {
 	text-decoration: none;
@@ -194,8 +195,7 @@ header h1{
 	text-decoration: underline;
 }
 #logo h1  {
-	line-height: 1.25em;
-	padding: .8em 0 0 0;
+	padding: .5em 0 0 0;
 	text-align: center;
 }
 
@@ -204,23 +204,27 @@ section h2 {
 	font-weight: 600;
 	margin: 0 auto;
 	max-width: 80%;
+	padding-bottom: .25em;
+	padding-top: 1em;
 	text-align: center;
 }
 section h3 {
 	font-size: 1.5em;
 	font-weight: 600;
 	margin: 0 auto;
+	padding-top: .5em;
 	padding-bottom: .5em;
 	width: 80%;
 }
 section p {
-	line-height: 1.65em;
 	margin: 0 auto;
 	padding-top: 1em;
-	padding-bottom: 1em;
 	max-width: 80%;
-	font-size: 1.15em;
+	font-size: 1.25em;
+	line-height: 1.5;
+	padding-bottom: 1em;
 	position: relative;
+
 }
 /*#about p {
 	font-size: 1.5em;;
@@ -250,12 +254,13 @@ section p {
 }
 .grid-container-3 p  {
 	margin: auto auto;
-	padding-top: 0;
-	line-height: 1.15em;
+	padding-top: .25em;
 	max-width: 100%;
-	font-size: 1em;
-	padding-bottom: .45em;
+	padding-top: .25em;
 	text-align: center;
+	line-height: 1.5em;
+	font-size: 1.15em;
+	padding-bottom: 0em;
 }
 .grid-container-4 h3 {
 	line-height: 1.15em;
@@ -289,7 +294,7 @@ section p {
 	width: 80%;
 }
 footer {
-	margin-top: 1em;
+	margin-top: 7em;
 }
 footer p {
 	font-size: .9em;
@@ -312,6 +317,7 @@ body {
 .sm-icons a {
 	color: black;
 	text-decoration-line: none;
+	
 }
 header h1 {
 	font-size: 2.5em;
@@ -330,25 +336,28 @@ header h2 {
 	text-align: left;
 }
 
-/*
+
 #name-space h1 {
-	font-size: 1.9em;
+	font-size: 2.5em;
 	font-family: 'Dancing Script', cursive;
-	text-align: center;
+	line-height: .5em;
+	text-align: left;
 	z-index: 2;
 	white-space: nowrap;
+	width: 15%;
 }
 #name-space h2 {
 	font-weight: 400;
-	font-size: 1.05em;
+	font-size: 1.25em;
 	position: relative;
 	z-index: 2;
-	padding-bottom: 1em;
-	line-height: 1em;
+	padding-bottom: .5em;
+	line-height: 0em;
 	white-space: nowrap;
-	text-align: center;
+	text-align: left;
+	width: 25%;
 }
-*/
+
 .nav-list {
 
 }
@@ -359,6 +368,7 @@ header h2 {
 	text-decoration: none;
 	font-size: 1.5em;
 	line-height: 2;
+	padding-bottom: .5em;
 }
 .nav-item:hover, .nav-item:active {
 	text-decoration: underline;
@@ -372,6 +382,8 @@ section h2 {
 	font-weight: 600;
 	margin: 0 auto;
 	max-width: 50%;
+	padding-bottom: .5em;
+	padding-top: 1em;
 	text-align: center;
 }
 section h3 {
@@ -386,7 +398,8 @@ section p {
 	padding-top: 1em;
 	padding-bottom: 1em;
 	max-width: 50%;
-	font-size: 1.45em;;
+	font-size: 1.45em;
+	line-height: 1.5em;
 }
 
 #about p {
@@ -410,16 +423,17 @@ section p {
 .grid-container-3 h3  {
 	margin: auto auto;
 	max-width: 80%;
-	padding-bottom: .35em;
+	padding-bottom: .5em;
+	padding-top: .5em;
 	text-align: center;
 	white-space: nowrap;
 }
 .grid-container-3 p {
 	margin: auto auto;
 	padding-top: 0;
-	line-height: 1.15em;
+	line-height: 1.25em;
 	max-width: 100%;
-	font-size: 1em;
+	font-size: 1.15em;
 	padding-bottom: .45em;
 	text-align: center;
 }
