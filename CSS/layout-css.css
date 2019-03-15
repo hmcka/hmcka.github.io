@@ -276,6 +276,11 @@ section {
 
 
 @media (min-width: 1200px) {
+	main {
+		background-image: url("../images/bkgrnd-light_grey.png");
+		background-repeat-x: repeat;
+		background-repeat-y: repeat;
+	}
 header {
 	background: peru;
 	display: flex;
