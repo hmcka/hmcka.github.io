@@ -140,7 +140,6 @@ header {
 }
 }
 
-/*
 @media (min-width: 600px) and (max-width: 1199px) { 
 main {
 	background-image: url("../images/bkgrnd-light_grey.png");
@@ -404,7 +403,7 @@ section {
 	margin: auto auto;
 	padding-top: 1em;
 }
-}*/
+}
 
 
 
