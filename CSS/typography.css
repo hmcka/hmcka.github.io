@@ -142,7 +142,7 @@ footer a:hover, footer a:active {
 }
 }
 
-
+/*
 @media (min-width: 600px)and (max-width: 1199px)  {	
 body {
 	font-family: 'Barlow', sans-serif;
@@ -228,7 +228,7 @@ section p {
 }
 /*#about p {
 	font-size: 1.5em;;
-}*/
+}*//*
 #prod p {
 	line-height: 1.65em;
 	margin: 0 auto;
@@ -483,4 +483,4 @@ footer a {
 footer a:hover, footer a:active {
 	text-decoration: underline;
 }
-}	
+}	*/
