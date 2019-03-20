@@ -1,5 +1,6 @@
 
 @media (min-width: 1px) and (max-width: 599px) {
+	
 body {
 	font-family: 'Barlow', sans-serif;
 }
@@ -143,7 +144,7 @@ footer a:hover, footer a:active {
 }
 
 /*
-@media (min-width: 600px)and (max-width: 1199px)  {	
+@media (min-width: 600px) and (max-width: 1199px)  {	
 body {
 	font-family: 'Barlow', sans-serif;
 }
