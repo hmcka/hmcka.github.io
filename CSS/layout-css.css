@@ -138,6 +138,21 @@ header {
 	position: relative;
 	width: 100%;
 }
+.port img {
+	position: relative;
+	width: 100%;
+	margin: auto auto;
+}
+.port h2 {
+	line-height: 0em;
+	padding-bottom: .75em;
+	padding-top: 2em;
+	
+}
+.port h3 {
+	padding-top: 1em;
+
+}
 }
 
 @media (min-width: 600px) and (max-width: 1199px) { 
@@ -270,7 +285,21 @@ section {
 #about img {
 	border-radius: 5%;
 }
+.port img {
+	position: relative;
+	width: 100%;
+	margin: auto auto;
+}
+.port h2 {
+	line-height: 0em;
+	padding-bottom: .75em;
+	padding-top: 9em;
+	
+}
+.port h3 {
+	padding-top: 1em;
 
+}
 }
 
 
@@ -402,6 +431,16 @@ section {
 	width: 100%;
 	margin: auto auto;
 	padding-top: 1em;
+}
+.port h2 {
+	line-height: 0em;
+	padding-bottom: .75em;
+	padding-top: 7.5em;
+	
+}
+.port h3 {
+	padding-top: 1em;
+
 }
 }
 
