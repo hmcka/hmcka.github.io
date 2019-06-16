@@ -1,0 +1,143 @@
+/*img {
+  display: inline-block;
+}*/
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.5rem;
+  padding: .5rem 1.8rem .5rem 1.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.active {
+   background-color: rebeccapurple;
+}
+
+.carousel-item.active {
+  background-color: white;
+}
+
+.navbar-text:hover {
+  background-color: rebeccapurple;
+}
+
+.fa {
+  color: white;
+}
+
+.carousel-item {
+  height: 565px;
+  overflow: hidden;
+ /* opacity: 0.6;
+  filter: alpha(opacity=60); */
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");*/
+
+  
+    /* Set a specific height */
+    width: 100%;
+    filter: brightness(50%);
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+h5 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 8rem;
+}
+
+.btn-primary {
+  background-color: #FFBE0E;
+  border: 1px solid #FFBE0E;
+  border-radius: 50px;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  background-color: rebeccapurple;
+  border: 1px solid rebeccapurple;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(112,0, 23, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: rebeccapurple;
+  border-color: rebeccapurple;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: rebeccapurple;
+  border-color: rebeccapurple;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(112,0, 23, 0.5);
+}
+
+.container-fluid {
+  margin-top: 10rem;
+}
+
+.card:hover {
+  background-color: rebeccapurple;
+}
+
+.card-title h2 {
+  color: #212529;
+}
+
+.card-title h2:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+}
+
+.breadcrumb {
+  background: white;
+  margin-bottom: 3rem;
+}
+
+.breadcrumb a {
+  color: #212529;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+#title {
+  font-weight: 600;
+}
