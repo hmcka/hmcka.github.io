@@ -1,0 +1,26 @@
+body,html {
+    padding: 0;
+    margin: 0;
+    background-color: dimgray;
+  }
+  
+  .wrapper {
+    display: grid; 
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .dot {
+    height: 3em;
+    width: 3em;
+    background-color: silver;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 2em;
+    text-align: center;
+  }
+  
+  .text {
+    padding-top: auto;
+  }
