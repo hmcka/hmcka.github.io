@@ -1,0 +1,106 @@
+body {
+    background-color: #324F17;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    /* Photo by mnm.all on Unsplash */
+    /* background: url('https://images.unsplash.com/photo-1518176258769-f227c798150e') center; */
+    background-size: cover;
+    padding: 4rem 2rem;
+  
+    /* Grid styles */
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+
+#title {
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 5em;
+    margin: 0;
+    padding-left: 0;
+}
+
+#my1stday {
+    font-family: 'Abel', sans-serif;
+    font-size: 150%;
+    font-weight: 600;
+    line-height: 1.25em;
+}
+
+.hero p {
+      /* float: left; */
+      /* padding-left: 2em;
+      padding-right: 1em; */
+      color: white;
+      font-family: 'Merriweather', serif;
+    line-height: 1,5em;
+  }
+
+  .hero-wrapper {
+    max-width: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+  }
+
+.wrapper {
+    max-width: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+}
+
+.auto-grid {
+    --auto-grid-min-size: 16rem;
+
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+   color: white;
+    padding: 1em;
+    min-height: 8em;
+}
+
+.not-done {
+    color: darkolivegreen;
+}
+
+.day-wrapper {
+
+}
+
+h1 {
+    font-family: 'Abel', sans-serif;
+    font-size: 6em;
+    margin: 0;
+    padding-left: .5em;
+}
+
+h2 {
+    float: left;
+    font-family: 'Abel', sans-serif;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+    padding-top: 1em;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+}
