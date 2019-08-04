@@ -41,10 +41,10 @@ body {
   }
 
   .hero-wrapper {
-    max-width: 65rem;
+    /* max-width: 65rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 1rem;
+    padding: 0 1rem; */
   }
 
 .wrapper {
