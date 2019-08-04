@@ -37,7 +37,7 @@ body {
       padding-right: 1em; */
       color: white;
       font-family: 'Merriweather', serif;
-    line-height: 1,5em;
+    line-height: 1.5em;
   }
 
   .hero-wrapper {
@@ -101,7 +101,7 @@ h2 {
 
 p {
     font-family: 'Merriweather', serif;
-    line-height: 1.5;
+    line-height: 1.5em;
     margin: 0;
     padding: 0;
 }
@@ -109,7 +109,7 @@ p {
 a {
     /* RESET */
     text-decoration: none;
-    line-height: 1;
+    line-height: 1em;
     position: relative;
     z-index: 0;
     display: inline-block;

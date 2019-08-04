@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>School Countdown</title>
+  <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Days Until School Starts, 2019</h1>
+
+    <label for="start">Start date:</label>
+
+    <input type="date" id="school" name="school-start"
+       value="2019-08-01"
+       min="2019-08-01" max="2019-08-31">
+
+    <input type="button" onclick="grabData('school')" value="Submit" />
+
+    <p>
+      Days:&nbsp<span id="days"></span>
+      &nbspHours:&nbsp<span id="hours"></span>
+      &nbspMinutes:&nbsp<span id="minutes"></span>
+      &nbspSeconds:&nbsp<span id="seconds"></span>
+    </p>
+  </div>
+
+  
+<script src="countdown.js"></script>
+
+</body>
+</html>
