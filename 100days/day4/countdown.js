@@ -9,7 +9,8 @@ function countdown(){
     var now = new Date();
     console.log(eventDate); //console.log says that this is undefined
     // var eventDate = new Date(2019, 11, 25);
-    var eventDate;
+    var eventDate = grabData(value);
+    console.log(eventDate);
 
     
     var currentTime = now.getTime();

@@ -9,7 +9,9 @@ body {
     /* background: url('https://images.unsplash.com/photo-1518176258769-f227c798150e') center; */
     background-size: cover;
     padding: 4rem 2rem;
-  
+    max-width: 65rem;
+    margin: auto;
+
     /* Grid styles */
     display: grid;
     align-items: center;
@@ -80,7 +82,6 @@ li {
 }
 
 .day-wrapper {
-
 }
 
 h1 {
