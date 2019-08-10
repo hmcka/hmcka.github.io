@@ -13,6 +13,8 @@ var imageRoll = [
     "./images/place2.jpg",
     "./images/place3.jpg",
     "./images/place4.jpg",
+    "./images/place5.jpg",
+    "./images/place6.jpg",
     // "http://static.ddmcdn.com/gif/lightning-gallery-21.jpg"
   ];
   
