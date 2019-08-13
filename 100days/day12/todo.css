@@ -1,0 +1,56 @@
+body {
+    background-image: url("starry.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    color: #D1E2FF;
+    font-family: 'Lemon', cursive;
+    font-size: 6em;
+    line-height: 1;
+    margin-top: .5em;
+}
+
+p {
+    color: #D1E2FF;
+    margin: 0;
+    padding: 0;
+    transition: background 0.2s;
+    flex: 1;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.inbox {
+    display: flex;
+    max-width: 80%;
+    margin: 1em auto;
+    text-align: center;
+  }
+
+  .flexit {
+    flex: 50%;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+  }
+
+  .item:last-child {
+    border-bottom: 0;
+  }
+
+  input:checked + p {
+    text-decoration: line-through;
+  }
+
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+
