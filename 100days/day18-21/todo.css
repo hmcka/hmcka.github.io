@@ -120,7 +120,7 @@
     padding: 10px;
     outline: 0;
     border: 1px solid rgba(240, 143, 143, 0.1);
-    /* min-width: 50px; */
+    min-width: 100%;
     width: 100%;
   }
 } 
