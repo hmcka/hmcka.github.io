@@ -21,7 +21,7 @@
   }
   
   .wrapper {
-    margin-top: 10%;
+    margin-top: 15%;
     padding: 20px;
     width: 90%;
     background-color: #7A0857;
@@ -100,6 +100,7 @@
   
   .plates input {
     display: none;
+    width: 10%;
   }
   
   .plates input + label:before {
@@ -119,7 +120,8 @@
     padding: 10px;
     outline: 0;
     border: 1px solid rgba(240, 143, 143, 0.1);
-    min-width: 100px;
+    /* min-width: 50px; */
+    width: 100%;
   }
 } 
 
