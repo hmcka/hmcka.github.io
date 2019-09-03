@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!-- <meta charset="UTF-8"> -->
+  <meta name="description" content="Backpack only by Michael Stüker from the Noun Project">
+  <title>School Countdown</title>
+  <link rel="stylesheet" href="countdown-clock.css">
+</head>
+<body>
+  <div class="wrapper">
+    <img src="noun_Backpack_74337.svg" alt="image of a backpack" height="auto" width="200">
+    <h1>When Does School Start Next Year?</h1>
+
+    <label for="start">Start date:</label>
+    <input type="date" name="school-start" id="datebtn" onchange="countdown()">
+    <span>*</span>
+    <div class="unit-wrapper">
+      <div class="row">
+          <div class="unit">
+              <span id="days"></span><br>
+              Days:&nbsp
+          </div>
+          <div class="unit">
+              <span id="hours"></span><br>
+              &nbspHours:&nbsp
+          </div>
+          <div class="unit">
+              <span id="minutes"></span><br>
+              &nbspMinutes:&nbsp
+          </div>
+          <div class="unit">
+              <span id="seconds"></span><br>
+              &nbspSeconds:&nbsp
+          </div>
+      </div>
+        
+    </div>
+    <p class="asterix">* Assumes start time of 8:30am.</p>
+  </div>
+  
+<script src="countdown-clock.js"></script>
+
+</body>
+</html>

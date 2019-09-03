@@ -1,0 +1,74 @@
+html {
+  background-color: #eeeeee;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Cookie', cursive;
+  font-size: 3em;
+  padding-top: 1em;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+}
+
+section h2 {
+  margin-top: .35em;
+  text-align: left;
+}
+
+section p {
+  font-size: 1em;
+  line-height: 1.2em;
+  margin-top: .45em;
+  text-align: left;
+  width: 400px;
+}
+
+.special {
+  font-family: 'Cookie', cursive;
+  font-size: 1.5em;
+}
+
+.items {
+  display: inline-flex;
+
+  height: 400px; 
+  padding-top: 50px;
+  width: 100%;
+  margin: 0;
+  overflow-y: hidden;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  transform: scale(0.98);
+  will-change: transform;
+  position: relative;
+  background: rgba(255,255,255,0.1);
+}
+
+.items.active {
+  background: rgba(255,255,255,0.3);
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  transform: scale(1);
+}
+
+.item {
+  width: 400px;
+  justify-content: center;
+  font-weight: 100;
+  padding: 1em;
+}
