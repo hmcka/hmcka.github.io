@@ -125,4 +125,3 @@ function moveItNow() {
         // capture: true
     }));
 }
-}
