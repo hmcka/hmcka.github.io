@@ -1,0 +1,33 @@
+html {
+    background: #191C24;
+  }
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+    color: #FCFCE5;
+    font-family: 'Cutive Mono', monospace;    
+    text-align: center;
+}
+
+  .animal {
+    margin-left: -500px;
+    position: fixed;
+    transition: all 0.4s;
+  } 
+
+  .highlight {
+    transition: all 0.2s;
+    border-bottom: 2px solid white;
+    position: absolute;
+    top: 0;
+    background: #FCFCE5;
+    left: 0;
+    z-index: -1;
+    border-radius: 50px;
+    display: block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }

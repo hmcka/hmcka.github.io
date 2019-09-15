@@ -1,0 +1,67 @@
+html {
+    /* box-sizing: border-box; */
+    background: #191C24;
+  }
+
+  body {
+    font-family: 'Assistant', sans-serif;    
+    padding: 0;
+  }
+
+h1, h2, p {
+  color: #FCFCE5;
+  margin-left: 1%;
+}
+
+/* h2 {
+  margin-left: 1%;
+}
+
+p {
+  margin-left: 1%;
+} */
+
+#game {
+    border: 1px solid orangered;
+    display: flex;
+    /* width: 600px;
+    height: 400px; */
+    /* flex-wrap: wrap; */
+    /* margin: 0px auto; */
+    /* height: 100vh;  */
+    /* z-index: -10;    */
+  }
+
+  .animal {
+    /* background-color: mediumturquoise; */
+    margin-left: -500px;
+    position: fixed;
+    transition: all 0.4s;
+    /* z-index: -1;    */
+
+  } 
+
+  .score {
+    padding-right: 1em;
+  }
+
+  button {
+    /* float: right; */
+    font-size: 20px;
+    font-family: 'Assistant', sans-serif;
+    z-index: 10;
+    /* position: fixed; */
+  }
+
+  .highlight {
+    transition: all 0.2s;
+    border-bottom: 2px solid #FCFCE5;
+    position: absolute;
+    top: 0;
+    background: #FCFCE5;
+    left: 0;
+    z-index: -1;
+    border-radius: 50px;
+    display: block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
