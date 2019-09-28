@@ -3,11 +3,15 @@
   padding: 0;
 }
 
+html {
+  background-color: black;
+}
+
 section {
   /* border: 10 solid black; */
-  /* border-radius: 25px; */
-  height: 225px;
-  width: 225px;
-  background: red;
-  background-image: url("images/city.svg") repeat;
+  border-radius: 25em;
+  margin: 3em auto;
+  width: 25em;
+  height: 25em;
+  background: url("https://hmcka.github.io/100days/day45/images/floor.svg")  no-repeat;
 }
