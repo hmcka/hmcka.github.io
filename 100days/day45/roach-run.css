@@ -13,5 +13,12 @@ section {
   margin: 3em auto;
   width: 25em;
   height: 25em;
-  background: url("https://hmcka.github.io/100days/day45/images/floor.svg")  no-repeat;
+  background: url("https://hmcka.github.io/100days/day45/images/floor.svg")  repeat;
+  -webkit-animation: flashlight-move 3s infinite  alternate;
+}
+
+/* animation definitions */
+@-webkit-keyframes flashlight-move {
+  0%    {background-position: 0 0; }
+  100%  {background-position: -25em; }
 }
