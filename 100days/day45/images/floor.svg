@@ -4,25 +4,34 @@
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#F5E0CD;}
-	.st1{fill:#FFCF5B;}
-	.st2{fill:#423E35;}
-	.st3{fill:#936946;}
-	.st4{fill:#B0A690;}
+	.st1{fill:#B0A690;}
+	.st2{fill:#936946;}
+	.st3{fill:#FFCF5B;}
+	.st4{fill:#423E35;}
 </style>
-<rect class="st0" width="150" height="150"/>
-<rect y="300" class="st0" width="150" height="150"/>
-<rect y="450" class="st1" width="150" height="150"/>
-<rect x="150" y="450" class="st2" width="150" height="150"/>
-<rect x="300" y="450" class="st0" width="150" height="150"/>
-<rect x="451.5" y="450" class="st3" width="150" height="150"/>
-<rect x="150" y="300" width="150" height="150"/>
-<rect x="300" y="300" class="st2" width="150" height="150"/>
-<rect y="150" class="st2" width="150" height="150"/>
-<rect x="300" y="150" class="st3" width="150" height="150"/>
-<rect x="450" y="150" class="st1" width="150" height="150"/>
-<rect x="150" y="150" class="st0" width="150" height="150"/>
-<rect x="150" class="st1" width="150" height="150"/>
-<rect x="300" width="150" height="150"/>
-<rect x="450" class="st4" width="150" height="150"/>
-<rect x="450" y="300" class="st4" width="150" height="150"/>
+<rect class="st0" width="120" height="120"/>
+<rect y="240" class="st0" width="120" height="120"/>
+<rect y="360" width="120" height="120"/>
+<rect y="480" class="st1" width="120" height="120"/>
+<rect x="120" y="480" class="st2" width="120" height="120"/>
+<rect x="240" y="480" class="st3" width="120" height="120"/>
+<rect x="360" y="480" class="st0" width="120" height="120"/>
+<rect x="480" y="480" class="st4" width="120" height="120"/>
+<rect x="120" y="360" class="st4" width="120" height="120"/>
+<rect x="240" y="360" class="st0" width="120" height="120"/>
+<rect x="361.2" y="360" width="120" height="120"/>
+<rect x="481.2" y="360" class="st3" width="120" height="120"/>
+<rect x="120" y="240" width="120" height="120"/>
+<rect x="240" y="240" class="st2" width="120" height="120"/>
+<rect y="120" class="st2" width="120" height="120"/>
+<rect x="240" y="120" class="st4" width="120" height="120"/>
+<rect x="360" y="120" class="st3" width="120" height="120"/>
+<rect x="480" y="120" class="st0" width="120" height="120"/>
+<rect x="120" y="120" class="st0" width="120" height="120"/>
+<rect x="120" class="st3" width="120" height="120"/>
+<rect x="240" width="120" height="120"/>
+<rect x="360" class="st1" width="120" height="120"/>
+<rect x="360" y="240" class="st1" width="120" height="120"/>
+<rect x="480" y="240" class="st4" width="120" height="120"/>
+<rect x="480" class="st4" width="120" height="120"/>
 </svg>
