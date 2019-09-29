@@ -22,3 +22,9 @@ section {
   0%    {background-position: 0 0; }
   100%  {background-position: -25em; }
 }
+/* 
+#bug1 {
+  position: absolute;
+  top: 500px;
+  left: -50px;
+} */
