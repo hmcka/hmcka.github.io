@@ -12,35 +12,56 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="candy.css">
+    <link rel="stylesheet" href="nature.css">
 
     <title>Museum of Candy</title>
   </head>
   
   <body>
-      <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-          <a href="#" class="navbar-brand">CANDY</a>
+      <header id="mainNavbar" >  
+          <a href="#" class="navbar-brand">LOGO</a>
+          <button id="ham-container">
+            <div id="bar1"></div>
+            <div id="bar2"></div>
+            <div id="bar3"></div>
+          </button>
+          <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button> -->
+
+              <nav id="nav">      
+              <ul id="nav-list">
+                  <li><a href="" class="nav-link">BUTTERFLIES</a></li>
+                  <li><a href="" class="nav-link">DAMSEL FLIES</a></li>
+                  <li><a href="" class="nav-link">HONEY BEES</a></li>
+              </ul>
+           </nav>
+
+        </header>	
+
+      <!-- <nav id="mainNavbar" class="navbar-dark navbar-expand-md">
+          <a href="#" class="navbar-brand">LOGO</a>
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navLinks">
               <ul class="navbar-nav">
                   <li class="nav-item">
-                      <a href="" class="nav-link">HOME</a>
+                      <a href="" class="nav-link">BUTTERFLIES</a>
                   </li>
                   <li class="nav-item">
-                      <a href="" class="nav-link">ABOUT</a>
+                      <a href="" class="nav-link">DAMSEL FLIES</a>
                   </li>
                   <li class="nav-item">
-                      <a href="" class="nav-link">TICKETS</a>
+                      <a href="" class="nav-link">HONEY BEES</a>
                   </li>
               </ul>
           </div>
-      </nav>
+      </nav> -->
 
       <section>
         <div class="row-container">
-          <div class="col-lg-6">
+          <div class="column">
             <div id="headingGroup" class="text-center d-none d-lg-block">
                 <h2 class="display-2">MUSEUM<span class="px-2">:</span>OF<span class="px-2">:</span>GUMMY</h2>
                 <h2>MUSEUM<span class="px-2">:</span>OF<span class="px-2">:</span>GUMMY</h2>
@@ -49,64 +70,59 @@
                 <h2>MUSEUM<span class="px-2">:</span>OF<span class="px-2">:</span>GUMMY</h2>
             </div>
           </div>
-              <div class="col-lg-6">
-            <img class="img-fluid" src="images/stream.jpg" alt="photo of a stream">
+              <div class="column">
+            <img src="images/stream.jpg" alt="photo of a stream">
               </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="row-container">
-          <div class="column col-md-6 order-2 order-md-2">
-              <img class="img-fluid" src="images/damsel.jpg" alt="photo of damsel flies">
-          </div>
-          <div class="col-md-6 order-1 order-md-2">
-              <div class="row-container justify-content-center">
-                <div class="col-10 col-lg-8 blurb mb-4 mb-md-0">
-                    <h2>MUSEUM OF GUMMY</h2>
-                    <img src="images/lolli_icon.png" alt="image of a lollipop" class="d-none d-lg-inline">
-                    <p class="lead">Cupcake ipsum dolor sit amet macaroon cheesecake macaroon tootsie roll. Liquorice croissant soufflé dragée pudding topping toffee biscuit. Cake candy canes soufflé cake jelly beans cookie tart jelly beans chocolate. Toffee apple pie danish candy.</p>
-                </div>
-              </div>
-          </div>
         </div>
       </section>
 
       <section>
           <div class="row-container">
             <div class="column order-2">
-                <img src="../images/butterfly.jpg" alt="photo of a butterfly">
+                <img src="./images/damsel.jpg" alt="photo of a damsel fly">
             </div>
             <div class="column order-1">
-                <h2>BUTTERFLY</h2>
-                <p class="lead">Tiramisu jelly-o gummies gummies tiramisu soufflé biscuit bonbon. Toffee gingerbread cotton candy dragée bear claw fruitcake caramels cotton candy. Halvah chocolate cake biscuit dragée jelly-o pastry pie. Marshmallow candy dessert icing tiramisu.</p>
+                <h2>DAMSEL FLY</h2>
+                <p>Cupcake ipsum dolor sit amet macaroon cheesecake macaroon tootsie roll. Liquorice croissant soufflé dragée pudding topping toffee biscuit. Cake candy canes soufflé cake jelly beans cookie tart jelly beans chocolate. Toffee apple pie danish candy.</p>
             </div>
           </div>
         </section>
 
-        <section class="container-fluid px-0">
-            <div class="row text-center align-items-center">
-              <div class="col-md-6 order-2 order-md-2">
-                  <img class="img-fluid" src="images/bees.jpg" alt="photo of two bees on a flower">
-              </div>
-              <div class="col-md-6 order-1 order-md-2">
-                  <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8 blurb mb-4 mb-md-0">
-                        <h2>VISIT US</h2>
-                        <img src="images/lolli_icon.png" alt="image of a lollipop" class="d-none d-lg-inline">
-                        <p class="lead">Cupcake ipsum dolor sit amet macaroon cheesecake macaroon tootsie roll. Liquorice croissant soufflé dragée pudding topping toffee biscuit. Cake candy canes soufflé cake jelly beans cookie tart jelly beans chocolate. Toffee apple pie danish candy.</p>
-                    </div>
-                  </div>
-              </div>
+        <section>
+          <div class="row-container">
+            <div class="column order-2">
+                <img src="./images/butterfly.jpg" alt="photo of a butterfly">
             </div>
-          </section>
+            <div class="column order-1">
+                <h2>BUTTERFLY</h2>
+                <p>Tiramisu jelly-o gummies gummies tiramisu soufflé biscuit bonbon. Toffee gingerbread cotton candy dragée bear claw fruitcake caramels cotton candy. Halvah chocolate cake biscuit dragée jelly-o pastry pie. Marshmallow candy dessert icing tiramisu.</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="row-container">
+            <div class="column order-2">
+                <img src="./images/bees.jpg" alt="photo of bees on a flower">
+            </div>
+            <div class="column order-1">
+                <h2>HONEY BEE</h2>
+                <p>Tiramisu jelly-o gummies gummies tiramisu soufflé biscuit bonbon. Toffee gingerbread cotton candy dragée bear claw fruitcake caramels cotton candy. Halvah chocolate cake biscuit dragée jelly-o pastry pie. Marshmallow candy dessert icing tiramisu.</p>
+            </div>
+          </div>
+        </section>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script src="./js/hamburger-js.js"></script>
+  
+    <script src="./js/sliding-nav.js"></script>
     <script>
         $(function () {
             $(document).scroll(function () {
