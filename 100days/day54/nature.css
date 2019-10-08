@@ -220,9 +220,61 @@ body {
         vertical-align: middle;
         border-style: none;
         object-fit: cover;
-
-        
     }  
+
+    #section1 p {
+        background: red;
+        margin-top: 0;
+        margin-left:0;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    #section1 section {
+        background-color: peru;
+        color: black;
+        font-family: sans-serif;
+        display: none;
+        margin: 1rem 0;
+        /* padding: 1rem; */
+        /*the flex feature*/
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    #section1 article {
+        background: white;
+        padding: 0;
+        margin: 1rem;
+        /* min-height: 300px; */
+    
+        /*the flex feature*/
+        max-width: 15%;
+    }
+    
+    #section article h2 {
+        text-align: center;
+        font-size: 2em;
+        padding: .25em;
+    }
+    
+    #section1 article p {
+        font-size: 1em;
+        padding: .5em;
+        text-align: left;
+    }
+    
+    .fade-in {
+        opacity: 0;
+        transition: all 2s;
+    }
+    
+    .fade-in.active {
+        opacity: 1;
+        transform: translateX(0%) scale(1);
+    }
 }
 
 @media only screen and (max-width: 659px) {

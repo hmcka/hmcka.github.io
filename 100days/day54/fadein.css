@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -13,23 +13,24 @@ html {
     
 body {
     margin: 0;
-}
+} */
 
-.site-wrap {
+/* .site-wrap {
     max-width: 90%;
     margin: auto;
     /* padding: 40px; */
-    text-align: justify;
-}
+   /* text-align: justify;
+} */
     
-h1 {
+/* h1 {
     font-family: sans-serif;
     font-size: 3em;
     margin-top: 2em;
     margin-bottom: 1em;
-}
+} */
 
-p {
+#section1 p {
+    background: red;
     margin-bottom: 1em;
     font-size: 1.5em;
 }
