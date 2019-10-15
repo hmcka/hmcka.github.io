@@ -1,10 +1,29 @@
 function openSection() {
   var sectionGo = document.getElementById("section1");
-  if (sectionGo.style.display === "none") {
-    sectionGo.style.display = "block";
-  } else {
-    sectionGo.style.display = "none";
+  var butterflyGo = document.getElementById("disappearButterfly");
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+  if(isMobile) {
+    
+    if (sectionGo.style.display === "none") {
+      sectionGo.style.display = "block";
+      butterflyGo.style.display = "none";
+
+    } else {
+      sectionGo.style.display = "none";
+      butterflyGo.style.display = "block";
+    }
   }
+else {
+    if (sectionGo.style.display === "none") {
+      sectionGo.style.display = "block";
+      // butterflyGo.style.display = "none";
+
+    } else {
+      sectionGo.style.display = "none";
+      // butterflyGo.style.display = "block";
+    }
+}
 }
 
 function debounce(func, wait = 20, immediate = true) {
