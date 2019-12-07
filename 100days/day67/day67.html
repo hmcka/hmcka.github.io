@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="circles.css">
+    <!-- Load the Paper.js library -->
+    <script type="text/javascript" src="paper-full.js"></script>
+    <!-- Define inlined PaperScript associate it with myCanvas -->
+
+    <script type="text/paperscript" canvas="myCanvas">
+
+        console.log(event.point);
+
+
+        function onMouseDown(event) {
+            var maxPoint = new Point(view.size.width, view.size.height);
+            var randomPoint = Point.random();
+            var point = maxPoint * randomPoint;
+    
+            var circle = new Path.Circle(new Point(point), 50);
+            circle.style = {
+                fillColor: 'black',
+                point: view.center
+            };
+
+            var destination = Point.random() * view.size;
+            console.log(destination);
+
+            var vector = destination - circle.position;
+            console.log(vector);
+
+            circle.position += vector / 30;
+            console.log(circle.position);
+       
+        }
+
+        
+
+        
+
+    </script>
+</head>
+<body>
+    <h2>Click canvas.</h2>
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>
+
+
+
+
+
+

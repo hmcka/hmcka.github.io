@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <link rel="stylesheet" href="circles.css"> -->
+    <!-- Load the Paper.js library -->
+    <script type="text/javascript" src="paper-full.js"></script>
+    <!-- Define inlined PaperScript associate it with myCanvas -->
+
+    <script type="text/paperscript" canvas="myCanvas">
+        var circleRed = new Path.Circle({
+            center: new Point(20,20),
+            radius: 20,
+            fillColor: 'red'
+        });
+
+        var circlePurple = new Path.Circle({
+            center: new Point(120,20),
+            radius: 20,
+            fillColor: 'purple'
+        });
+
+        var circleOrange = new Path.Circle({
+            center: new Point(220,20),
+            radius: 20,
+            fillColor: 'orange'
+        });
+
+        //the red ball jumping on click
+        circleRed.onMouseDown = function(event){
+            for (var i=1; i<5; i++){
+                circleRed.position.y +=5;
+            }
+        };
+
+        //the purple ball dropping
+        function onFrame(event){
+            for(var i=1; i<5; i++){
+                circlePurple.position.y +=5;
+            }
+        };
+
+        //the orange ball dropping on click
+        circleOrange.onMouseDown = function(event) {
+            y = event.event.moveCircle;
+            paper.view.attach('frame', moveCircle);
+        }
+
+        function moveCircle(event) {
+            for(var i=1; i<5; i++){
+                circleOrange.position.y +=5;
+            }
+        }
+
+        
+
+    </script>
+</head>
+<body>
+    <h1>Dots Do</h1>
+    <p>Red dot scoots down on click.</p>
+    <p>Purple dot drops on load.</p>
+    <p>Orange dot drops on click.</p>
+    
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>
+
+
+
+
+
+

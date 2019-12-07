@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="circles.css">
+    <!-- Load the Paper.js library -->
+    <script type="text/javascript" src="paper-full.js"></script>
+    <!-- Define inlined PaperScript associate it with myCanvas -->
+
+    <script type="text/paperscript" canvas="myCanvas">
+
+        var ship = Path.Rectangle(new Point(100, 70), new Size(100, 50));
+        ship.style = {
+            fillColor: 'black'
+        };
+
+        function onFrame(event) {
+            if(Key.isDown('d')) {
+                ship.translate(5,0);
+            }
+        }
+
+        
+
+    </script>
+</head>
+<body>
+    <h2>Key D moves the box.</h2>
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>
+
+
+
+
+
+

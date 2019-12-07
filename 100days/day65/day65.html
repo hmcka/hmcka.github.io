@@ -1,0 +1,44 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="circles.css">
+    <!-- Load the Paper.js library -->
+    <script type="text/javascript" src="paper-full.js"></script>
+    <!-- Define inlined PaperScript associate it with myCanvas -->
+
+    <script type="text/paperscript" canvas="myCanvas">
+        var myCircle = new Path.Circle(new Point(100, 70), 50);
+        myCircle.fillColor = 'black';
+        
+        // When the mouse is pressed on the item, move it:
+        myCircle.onMouseDrag = function(event) {
+            myCircle.position = new Path.circle(event.point);
+            myCircle.fillColor = "purple";
+        }
+
+        // When the mouse is pressed on the item, remove it:
+        myCircle.onMouseDown = function(event) {
+            this.remove();
+        }
+
+
+        
+        
+
+    </script>
+</head>
+<body>
+    <h2>Bye bye circle on click.</h2>
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>
+
+
+
+
+
+

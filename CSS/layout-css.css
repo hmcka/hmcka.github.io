@@ -22,6 +22,7 @@ header {
 }
 #logo img {
 	height: 115px;
+	padding-top: .5em;
 }
 #ham-container{
 	background: black;
