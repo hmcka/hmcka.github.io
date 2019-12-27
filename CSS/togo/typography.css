@@ -1,17 +1,19 @@
 
 @media (min-width: 1px) and (max-width: 599px) {
 	
-body {
+/* NEW body {
 	font-family: 'Barlow', sans-serif;
-}
+} */
 .sm-icons a {
 	color: black;
 	text-decoration-line: none;
 }
-header h1{
+/* NEW
+	No header H1 anymore. 
+	header h1{
 	text-align: center;
-}
-#name-space h1 {
+} */
+/*NEW #name-space h1 {
 	font-size: 2em;
 	font-family: 'Dancing Script', cursive;
 	max-width: 90%;
@@ -20,23 +22,35 @@ header h1{
 	margin: 0 auto;
 	padding-bottom: .35em;
 	padding-top: .5em;
-}
-#name-space h2 {
+} */
+/* NEW #name-space h2 {
 	font-weight: 400;
 	font-size: 1.05em;
 	max-width: 90%;
 	padding-bottom: 1em;
 	text-align: center;
 	margin: 0 auto;
-}
-#about h2 {
+} */
+
+/* NEW #about h1 {
+	font-size: 1.25em;
+	font-weight: 200;
+	line-height: 1.5em;
+	margin: 0 auto;
+	max-width: 85%;
 	padding-bottom: .25em;
 	padding-top: 1em;
-}
+	text-align: left;
+} */
+
+/* NEW and Not DRY #about h2 {
+	padding-bottom: .25em;
+	padding-top: 1em;
+} */
 section{
 	padding-bottom: 1em;
 }
-section h2 {
+/* section h2 {
 	font-size: 2em;
 	font-weight: 600;
 	margin: 0 auto;
@@ -44,28 +58,37 @@ section h2 {
 	padding-bottom: .25em;
 	padding-top: 1em;
 	text-align: center;
-}
-section h3 {
+} */
+/* NEW section h3 {
 	font-size: 1.65em;
 	font-weight: 600;
 	margin: 0 auto;
 	padding-top: .5em;
 	padding-bottom: .5em;
 	width: 90%;
-}
-section p {
+} */
+/* NEW section p {
 	margin: 0 auto;
 	padding-top: 1em;
 	max-width: 85%;
 	font-size: 1.25em;
 	line-height: 1.5;
 	padding-bottom: 1em;
+} */
+
+section ul {
+	margin-top: .5em;
 }
-/*
-#about p {
-	font-size: 1.5em;;
+
+section li {
+	font-size: 1.15em;
+	line-height: 1.25em;
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 0 0 0 -2.5em;
+	padding: 0 0 .55em 0;
 }
-*/
+
 #prod p {
 	/*line-height: 1.65em;
 	margin: 0 auto;
@@ -114,55 +137,55 @@ section p {
 	color: black;
 	text-decoration: underline;
 }
-#logo h1  {
+/* NEW #logo h1  {
 	line-height: 0;
 	text-align: center;
-}
+} */
 .arch h3 {
 	margin: 0 auto;
 	padding-bottom: .5em;
 	padding-top: 1em;
 	width: 80%;
 }
-footer {
+/* NEW footer {
 	margin-top: 7em;
 	padding-bottom: .5em;
-}
-footer p {
+} */
+/* NEW footer p {
 	font-size: .9em;
 	text-align: center;
 	text-decoration: none;
-}
+} */
 
-footer a {
+/* footer a {
 	text-decoration: none;
 	color: black;
-}
-footer a:hover, footer a:active {
+} */
+/* NEW footer a:hover, footer a:active {
 	text-decoration: underline;
-}
+} */
 }
 
 
 @media (min-width: 600px) and (max-width: 1199px)  {	
-body {
+/* NEW body {
 	font-family: 'Barlow', sans-serif;
-}
-.sm-icons a {
+} */
+/* NEW .sm-icons a {
 	color: black;
 	text-decoration-line: none;
-}
-header h1{
+} */
+/* NEW header h1{
 	text-align: center;
-}	
-#name-space h1 {
+}	 */
+/* NEW #name-space h1 {
 	font-size: 1.9em;
 	font-family: 'Dancing Script', cursive;
 	text-align: center;
 	z-index: 2;
 	white-space: nowrap;
-}
-#name-space h2 {
+} */
+/* NEW #name-space h2 {
 	font-weight: 400;
 	font-size: 1.05em;
 	position: relative;
@@ -171,7 +194,7 @@ header h1{
 	line-height: 0em;
 	white-space: nowrap;
 	text-align: center;
-}
+} */
 #nav-list {
 	list-style: none;
 	margin: 0 auto;
@@ -187,57 +210,78 @@ header h1{
 	color: black;
 	font-size: 1.25em;
 }
-.nav-item a {
+/* NEW .nav-item a {
 	text-decoration: none;
 	color: black;
-}
-.nav-item:hover, .nav-item:active {
+} */
+/* NEW .nav-item:hover, .nav-item:active {
 	color: black;
 	text-decoration: underline;
-}
+} */
 #logo h1  {
 	padding: .5em 0 0 0;
 	text-align: center;
 }
 
-section h2 {
-	font-size: 2em;
-	font-weight: 600;
-	margin: 0 auto;
+/*NEW About H1 should be the same as <p> #about h1 {
+	font-size: 1.25em;
+	font-weight: 200;
+	line-height: 1.5em;
+	margin: -1.5em auto 0 auto;
 	max-width: 80%;
 	padding-bottom: .25em;
-	padding-top: 1em;
-	text-align: center;
+	/* padding-top: 1em; */
+	text-align: left;
+} */
+
+section h2 {
+	/* NEW font-size: 2em; */
+	/* NEW font-weight: 600; */
+	/* NEW margin: 0 auto; */
+	max-width: 80%;
+	/* NEW padding-bottom: .25em; */
+	/* NEW padding-top: 1em; */
+	/* NEW text-align: center; */
 }
 section h3 {
 	font-size: 1.5em;
-	font-weight: 600;
-	margin: 0 auto;
-	padding-top: .5em;
-	padding-bottom: .5em;
+	/* NEW font-weight: 600; */
+	/* NEW margin: 0 auto; */
+	/* NEW padding-top: .5em; */
+	/* NEW padding-bottom: .5em; */
 	width: 80%;
 }
 section p {
-	margin: 0 auto;
-	padding-top: 1em;
+	/* NEW margin: 0 auto; */
+	/* NEW padding-top: 1em; */
 	max-width: 80%;
-	font-size: 1.25em;
-	line-height: 1.5;
-	padding-bottom: 1em;
+	/* NEW font-size: 1.25em; */
+	/* NEW line-height: 1.5; */
+	/* NEW padding-bottom: 1em; */
 	position: relative;
-
 }
-/*#about p {
-	font-size: 1.5em;;
-}*/
-#prod p {
+
+section ul {
+	margin-top: .5em;
+}
+
+section li {
+	font-size: 1.15em;
+	line-height: 1.25em;
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 0 0 0 -2.5em;
+	padding: 0 0 .55em 0;
+}
+
+/* NEW #prod p {
 	line-height: 1.65em;
 	margin: 0 auto;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	max-width: 80%;
 	font-size: 1.15em;
-}
+} */
 .grid-container-2 h3  {
 	margin: auto auto;
 	max-width: 60%;
@@ -288,27 +332,27 @@ section p {
 	color: black;
 	text-decoration: underline;
 }
-.arch h3 {
+/* NEW .arch h3 {
 	margin: 0 auto;
 	padding-bottom: .5em;
 	padding-top: 1em;
 	width: 80%;
-}
-footer {
+} */
+/* NEW footer {
 	margin-top: 7em;
-}
-footer p {
+} */
+/* NEW footer p {
 	font-size: .9em;
 	text-align: center;
 	text-decoration: none;
-}
-footer a {
+} */
+/* NEW footer a {
 	text-decoration: none;
 	color: black;
-}
-footer a:hover, footer a:active {
+} */
+/* NEW footer a:hover, footer a:active {
 	text-decoration: underline;
-}
+} */
 }
 	
 @media (min-width: 1200px)  { 
@@ -401,6 +445,30 @@ section p {
 	max-width: 50%;
 	font-size: 1.45em;
 	line-height: 1.5em;
+}
+
+section ul {
+	margin-top: .25em;
+}
+
+section li {
+	font-size: 1.15em;
+	line-height: 1.85em;
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 0 0 0 -2.5em;
+	padding: 0;
+}
+
+#about h1 {
+	font-size: 1.5em;
+	font-weight: 200;
+	line-height: 1.5em;
+	margin: 0 auto 0 auto;
+	max-width: 50%;
+	padding-bottom: .25em;
+	/* padding-top: 1em; */
+	text-align: left;
 }
 
 #about p {

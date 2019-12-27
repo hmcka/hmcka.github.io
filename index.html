@@ -1,135 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="utf-8">
-    <title>Hethur Aluma's Portfolio</title>
+    <title>Hethur Aluma's Website</title>
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
-	<link rel="stylesheet" type="text/css" href="./CSS/reset.css">
-	<link rel="stylesheet" type="text/css" href="./CSS/layout-css.css">
-	<link rel="stylesheet" type="text/css" href="./CSS/typography.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./css/hmcka-css.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Barlow:400,600,900" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Barlow:400,600,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-	<link rel= "icon" type="image/ico" href="./images/moon.ico">
-	
-</head>
+        <link rel= "icon" type="image/ico" href="./images/moon.ico">        
+    </head>
 <body>
-	<header>  
-		<div id="ham-container">
-			<div id="bar1"></div>
-			<div id="bar2"></div>
-			<div id="bar3"></div>
-		</div>
-		<h1 id="logo"><img src="./images/hmcka-Logo.svg" alt="Hethur Aluma's logo" width=auto height = "125em"></img></h1>
-		<div id="name-space">
-				<h1>Hethur Aluma</h1>
-				<h2> UI&ensp;|&ensp;UX&ensp;|&ensp;Design </h2>
-			</div>
-        <nav id="nav">      
-			<ul id="nav-list" >
-                <li><a href="#about" class="nav-item">About</a></li>
-			    <li><a href="#skillset" class="nav-item">Skillset</a></li>
-				<li><a href="#projects" class="nav-item">Projects</a></li>
-				<li><a href="http://www.workcomplimentsplay.com/" target="_blank" class="nav-item">Blog</a></li>
-			    <li><a href="#contact" class="nav-item">Contact</a></li>
-			</ul>
-	 	</nav>
-	</header>	
+	<header>
+        
+		<div id="mySlideNav" class="slideNav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#about" class="nav-item" onclick="closeNav()">About</a>
+			<a href="#skillset" class="nav-item" onclick="closeNav()">Skillset</a>
+            <a href="#projects" class="nav-item" onclick="closeNav()">Projects</a>
+            <a href="http://www.workcomplimentsplay.com/" target="_blank" class="nav-item">Blog</a>
+			<a href="#contact" class="nav-item" onclick="closeNav()">Contact</a>
+        </div>
+        <a href=""><img id="logo" src="./images/hmcka-Logo.svg" alt="Hethur Aluma's logo" width=auto height = "125em"></img></a>
 
-    <main>
+		<span id="hamburger" onclick="openNav()">&nbsp;</span>
+	</header>
 
-			
-
-	<section id="about">
-		<h2>It's Me</h2>
-		<p>Hello. I am a designer living and working in Columbus, Ohio. I like a good challenge. I like to learn. I like to work on projects that have purpose.
-		</p>
-	</section>
+	<main id="main">
+    <section id="about">
+        <h1>Hello. I am Hethur Aluma, a multidisciplinary designer who likes to code. I get excited about iconography, design systems and creating engaging user interfaces. I aim to take part in developing meaningful inclusive digital experiences that educate and empower. I like a good challenge. I like to learn. I like to explore the world around me.</h1>		
+    </section>
 
 	<section id="skillset">
 		<h2>Skillset</h2>
 		<div class="grid-container-3">
 			<div class="skill-column">
-				<h3><img src="./images/responsive.png" alt="computer and cell phone screens"></img></h3>
+				<img src="./images/responsive.png" alt="computer and cell phone screens"></img>
+				<!-- <h3><img src="./images/responsive.png" alt="computer and cell phone screens"></img></h3> -->
 				<h3>Skills</h3>
-				<p>Responsive Design</p>
-				<p>Content Management</p>
-				<p>Web Project Planning</p>
-				<p>User-Centered Design</p>
-				<p>Brand Identity Systems</p>
-				<p>User Interface Design</p>
-				<p>Photography</p>
-				<p>Participatory Photography</p>
+				<ul>
+					<!-- <li>Responsive Design</li> -->
+					<!-- <li>Web Project Planning</li> -->
+					<li>User Interface Design</li>
+					<li>User-Centered Design</li>
+					<li>Brand Identity Systems</li>
+					<li>Content Management</li>
+					<li>Photography</li>
+					<!-- <li>Participatory Photography</li> -->
+				</ul>
 			</div>
 			<div class="skill-column">
-				<h3><img src="./images/tools.png" alt="a wrench and a paintbrush"></img></h3>
+				<img src="./images/tools.png" alt="a wrench and a paintbrush"></img>
 				<h3>Tools</h3>
-				<p>HTML 5 / CSS 3</p>
-				<p>JavaScript</p>
-				<p>JQuery</p>
-				<p>Java</p>
-				<p>Spring MVC</p>
-				<p>Spring Data JPA</p>
-				<p>InDesign</p>
-				<p>Illustrator</p>
-				<p>Photoshop</p>
-				<p>Sketch</p>
+				<ul>
+					<li>Adobe CS</li>
+					<li>HTML/CSS</li>
+					<li>JavaScript</li>
+					<!-- <li>JQuery</li> -->
+					<li>Java</li>
+					<li>Spring MVC</li>
+					<!-- <li>Spring Data JPA</li> -->
+					<!-- <li>Sketch</li> -->
+				</ul>
 			</div>
 			<div class="skill-column">
-				<h3><img src="./images/design.png" alt="image of moons working together to complete a design"></img></h3>
+				<img src="./images/design.png" alt="image of moons working together to complete a design"></img>
 				<h3>Collaboration</h3>
-				<p>Github</p>
-				<p>Peer Programming</p>
-				<p>Agile Methodologies</p>
-				<p>Consulting</p>
-				<p>Project Management</p>
-				<p>Trello</p>
-				<p>Slack</p>
-				<p>Wrike</p>
-				<p>Basecamp</p>
+				<ul>
+						<li>Github</li>						
+						<li>Remote Projects</li>
+						<li>Peer Programming</li>
+						<li>Agile Methodologies</li>
+						<!-- <li>Consulting</li> -->
+						<!-- <li>Project Management Software</li> -->
+						<li>Google Suite</li>
+						<!-- <li>Trello</li> -->
+						<!-- <li>Slack</li> -->
 			</div>
 		</div>
-	</section>
-
-	<section id="projects">
-		<h2>Projects</h2>
-		<p>Sometimes the best design solutions are the simplest. At other times, they are not obvious. 
-			Either way, I strive to make intuitive and clean design solutions for all users. 
-			I define, explore and refine until I've created a functional product that's aesthetically  appealing.
-			When I get stuck, I like to swim or go for a walk. 
-		</p>
-		<div class="grid-container-3">
-			<h3><a href="https://github.com/hmcka">Development</a></h3>
-			<h3><a href="./prod.html">Case Study</a></h3>
-			<h3><a href="https://hmcka.github.io/100days/day1/day1.html">#100DaysOfCode</a></h3>
-		</div>
-	</section>
-
-	<section id="contact">
-		<h2>Get in Touch</h2>
-		<h2 class="sm-icons">
-			<a href="https://github.com/hmcka" class="fa fa-github-alt"></a>&nbsp&nbsp&nbsp&nbsp
-			<a href="https://www.linkedin.com/in/hethur-aluma-25685267" class="fa fa-linkedin"></a>&nbsp&nbsp&nbsp&nbsp
-			<a href="mailto:hethur@hmcka.com" class="fa fa-envelope"></a>&nbsp&nbsp&nbsp&nbsp
-		</h2>
-				
-		
-	</section>
-
-	<footer>
-			
-		<p>Hethur Aluma &copy; 2019 </p>
-	</footer>
-
-	<script src="./js/jquery-3.3.1.js"></script>
-	<script src="./js/hamburger-js.js"></script>
-
-	<script src="./js/sliding-nav.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    </main>
-
+    </section>
     
+	<section id="projects">
+        <h2>Projects</h2>
+        <p>Sometimes the best design solutions are the simplest. At other times, they are not obvious. 
+                Either way, I strive to make intuitive and clean design solutions for all users. 
+				I define, explore and refine until I've created a functional product that's aesthetically  appealing.
+				Below are two projects that demonstrate my UX/UI skills. Visit my blog <a href="http://www.workcomplimentsplay.com/">Work Compliments Play</a> 
+				to see what I've been up to lately.
+        </p>
+        <div class="grid-container-3">
+            <div class="skill-column">
+                <h3><a href="./prod.html">Case Study</a></h3>
+            </div>
+            <div class="skill-column">
+                <h3><a href="https://hmcka.github.io/100days/day1/day1.html">#100DaysOfCode</a></h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <h2 class="sm-icons">
+            <a href="https://github.com/hmcka" class="fa fa-github-alt"></a>
+            <a href="https://www.linkedin.com/in/hethur-aluma-25685267" class="fa fa-linkedin"></a>
+            <!-- <a href="mailto:hethur@hmcka.com" class="fa fa-envelope"></a> -->
+        </h2>
+    </section>
+
+    <footer>
+		<!-- <p>Hethur Aluma &copy; 2019 </p> -->
+	</footer>
+	</main>
+
+    <script src="./js/jquery-3.3.1.js"></script>
+	<script src="./js/hamburger-js.js"></script>
+	<script src="./js/sliding-nav.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 </body>
 </html>
