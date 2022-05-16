@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Hethur Aluma's Website</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<link rel="stylesheet" type="text/css" href="./CSS/reset.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/hmcka-css.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:400,600,900" rel="stylesheet">
+    <link rel= "icon" type="image/ico" href="./images/moon.ico">        
+</head>
+
+<body>
+	<header>
+        <div id="mySlideNav" class="slideNav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#about" class="nav-item" onclick="closeNav()">About</a>
+			<a href="#skillset" class="nav-item" onclick="closeNav()">Skillset</a>
+            <a href="#projects" class="nav-item" onclick="closeNav()">Projects</a>
+            <a href="http://www.workcomplementsplay.com/" target="_blank" class="nav-item">Blog</a>
+			<a href="#contact" class="nav-item" onclick="closeNav()">Contact</a>
+        </div>
+        <a href=""><img id="logo" src="./images/hmcka-Logo.svg" alt="Hethur Aluma's logo" width=auto height = "125em"></img></a>
+
+		<span id="hamburger" onclick="openNav()">&nbsp;</span>
+	</header>
+
+	<main id="main">
+    <section id="about">
+        <h1>Hello. I am Hethur Aluma, a multidisciplinary designer who likes to code. I get excited about iconography, design systems and creating engaging user interfaces. I aim to take part in developing meaningful inclusive digital experiences that educate and empower. I like a good challenge. I like to learn. I like to explore the world around me.</h1>		
+    </section>
+
+	<section id="skillset">
+		<h2>Skillset</h2>
+		<div class="grid-container-3">
+			<div class="skill-column">
+				<img src="./images/responsive.png" alt="computer and cell phone screens"></img>
+				<h3>Skills</h3>
+				<ul>
+					<li>User Interface Design</li>
+					<li>User-Centered Design</li>
+					<li>Brand Identity Systems</li>
+					<li>Content Management</li>
+					<li>Photography</li>
+				</ul>
+			</div>
+			<div class="skill-column">
+				<img src="./images/tools.png" alt="a wrench and a paintbrush"></img>
+				<h3>Tools</h3>
+				<ul>
+					<li>Adobe CS</li>
+					<li>HTML/CSS</li>
+					<li>JavaScript</li>
+					<li>Java</li>
+					<li>Spring MVC</li>
+				</ul>
+			</div>
+			<div class="skill-column">
+				<img src="./images/design.png" alt="image of moons working together to complete a design"></img>
+				<h3>Collaboration</h3>
+				<ul>
+					<li>Github</li>						
+					<li>Remote Projects</li>
+					<li>Peer Programming</li>
+					<li>Agile Methodologies</li>
+					<li>Google Suite</li>
+				</ul>
+			</div>
+		</div>
+    </section>
+    
+	<section id="projects">
+        <h2>Projects</h2>
+        <p>Sometimes the best design solutions are the simplest. At other times, they are not obvious. 
+                Either way, I strive to make intuitive and clean design solutions for all users. 
+				I define, explore and refine until I've created a functional product that's aesthetically  appealing.
+				Below are three projects that demonstrate my UX/UI skills. Visit my blog <a href="http://www.workcomplementsplay.com/">Work Complements Play</a> 
+				to see what I've been up to lately.
+        </p>
+        <div class="grid-container-3">
+            <div class="skill-column">
+                <h3><a href="./prod.html">Case Study</a></h3>
+            </div>
+            <div class="skill-column">
+                <h3><a href="https://hmcka.github.io/100days/day1/day1.html">#100DaysOfCode</a></h3>
+			</div>
+			<div class="skill-column">
+                <h3><a href="http://www.workcomplementsplay.com/final-sprint-to-the-finish-line">Capstone Project</a></h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <h2 class="sm-icons">
+            <a href="https://github.com/hmcka" class="fa fa-github-alt"></a>
+            <a href="https://www.linkedin.com/in/hethur-aluma-25685267" class="fa fa-linkedin"></a>
+        </h2>
+    </section>
+
+    <footer></footer>
+	</main>
+
+    <script src="./js/jquery-3.3.1.js"></script>
+	<script src="./js/hamburger-js.js"></script>
+	<script src="./js/sliding-nav.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+</body>
+</html>
